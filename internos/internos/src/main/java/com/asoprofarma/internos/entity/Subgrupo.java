@@ -30,6 +30,7 @@ public class Subgrupo implements Serializable {
 	@NotNull
 	@Column(length = 50)
 	private String nombre;
+	@NotNull
 	@JsonIgnoreProperties({ "subgrupos", "hibernateLazyInitializer", "handler" })
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Grupo grupo;

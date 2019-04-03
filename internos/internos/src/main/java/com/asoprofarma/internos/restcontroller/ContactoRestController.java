@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -52,8 +53,8 @@ public class ContactoRestController {
 			contactos = contactoService.ListContactos();	
 			response.put("clientes", contactos);
 			return new ResponseEntity(contactos, HttpStatus.OK);
-		}catch(Exception e) {
-			response.put("mensaje", e.getMessage());
+		}catch(DataAccessException e) {
+			response.put("mensaje", e.getMostSpecificCause());
 			return new ResponseEntity(e,HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 			
@@ -68,8 +69,8 @@ public class ContactoRestController {
 			response.put("contacto",contactoNew);
 			response.put("mensaje", "Contacto creado correctamente");
 			return new ResponseEntity(response, HttpStatus.CREATED);
-		}catch(Exception e) {
-			response.put("mensaje", e.getMessage());
+		}catch(DataAccessException e) {
+			response.put("mensaje", e.getMostSpecificCause());
 			return new ResponseEntity(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		} 
 
@@ -91,16 +92,33 @@ public class ContactoRestController {
 	}
 	
 	@PutMapping("/update")
-	private Contacto update(@RequestBody Contacto contacto) {
-		if(contactoService.findById(contacto.getId())!=null) {
-			Contacto update = contactoService.findById(contacto.getId());
-			update.setNombre(contacto.getNombre());
-			update.setNumero(contacto.getNumero());
-			update.setNumero_2(contacto.getNumero_2());
-			update.setSubgrupo(contacto.getSubgrupo());
+	private ResponseEntity<?> update(@RequestBody Contacto contacto) {
+		Map<String,Object> response = new HashMap<>();
+		Contacto update = null;
+		
+		if(contactoService.findById(contacto.getId())!=null) {		
+
+			try {
+				update = contactoService.findById(contacto.getId());
+				update.setNombre(contacto.getNombre());
+				update.setNumero(contacto.getNumero());
+				update.setNumero_2(contacto.getNumero_2());
+				update.setSubgrupo(contacto.getSubgrupo());
+				
+				response.put("contacto", contactoService.save(update) );
+				response.put("mensaje", "Contacto "+ update.getNombre()+" actualizado correctamente");
+	
+				return new ResponseEntity(response,HttpStatus.OK);
+			}catch(DataAccessException e) {
+				response.put("mensaje", e.getMostSpecificCause());
+				return new ResponseEntity(response,HttpStatus.INTERNAL_SERVER_ERROR);
+			}
 			
-			contactoService.save(update);
+			
+		}else {
+			response.put("mensaje", "El contacto que quiere actualizar no existe");
+			return new ResponseEntity(response,HttpStatus.NOT_FOUND);
 		}
-		return null;
+	
 	}
 }
