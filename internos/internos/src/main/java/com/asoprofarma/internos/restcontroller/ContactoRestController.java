@@ -4,11 +4,16 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -61,9 +66,20 @@ public class ContactoRestController {
 	}
 	
 	@PostMapping("/save")
-	private ResponseEntity<?> save(@RequestBody Contacto contacto){
+	private ResponseEntity<?> save(@Valid @RequestBody Contacto contacto, BindingResult result){
 		Map<String,Object> response = new HashMap<>();
 		Contacto contactoNew = null;
+		
+		if(result.hasErrors()) {
+			List err = result.getFieldErrors()
+					.stream()
+					.map(err1-> err1.getField() + " : " + err1.getDefaultMessage())
+					.collect(Collectors.toList());
+			response.put("errors", err);
+			return new ResponseEntity(response,HttpStatus.BAD_REQUEST);		
+		}
+		
+		
 		try {
 			contactoNew = contactoService.save(contacto);			
 			response.put("contacto",contactoNew);
@@ -92,12 +108,23 @@ public class ContactoRestController {
 	}
 	
 	@PutMapping("/update")
-	private ResponseEntity<?> update(@RequestBody Contacto contacto) {
+	private ResponseEntity<?> update(@Valid @RequestBody Contacto contacto, BindingResult result) {
 		Map<String,Object> response = new HashMap<>();
 		Contacto update = null;
 		
 		if(contactoService.findById(contacto.getId())!=null) {		
-
+			
+			if(result.hasErrors()) {
+				List err = result.getFieldErrors()
+						.stream()
+						.map(err1 -> err1.getField()+" : "+err1.getDefaultMessage())
+						.collect(Collectors.toList())
+						;
+				
+				response.put("err", err);
+				return new ResponseEntity(response, HttpStatus.BAD_REQUEST);
+			}
+			
 			try {
 				update = contactoService.findById(contacto.getId());
 				update.setNombre(contacto.getNombre());

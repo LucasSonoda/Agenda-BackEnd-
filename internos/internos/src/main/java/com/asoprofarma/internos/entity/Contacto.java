@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -25,12 +26,15 @@ public class Contacto implements Serializable {
 	@Column(unique = true, nullable = false)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+	@Size(max = 50)
 	@Column(length = 50)
 	@NotNull
 	private String nombre;
+	@Size(max = 25)
 	@Column(length = 25)
 	@NotNull
 	private Long numero;
+	@Size(max = 25)
 	@Column(length = 25, columnDefinition="default 'null'")
 	private Long numero_2;
 	@JsonIgnoreProperties({ "contactos", "hibernateLazyInitializer", "handler" })
