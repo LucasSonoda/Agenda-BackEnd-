@@ -71,7 +71,7 @@ public class ContactoRestController {
 		}catch(Exception e) {
 			response.put("mensaje", e.getMessage());
 			return new ResponseEntity(response, HttpStatus.INTERNAL_SERVER_ERROR);
-		}
+		} 
 
 	}
 	
