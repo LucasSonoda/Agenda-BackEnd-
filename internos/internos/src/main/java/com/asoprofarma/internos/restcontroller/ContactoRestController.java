@@ -74,7 +74,7 @@ public class ContactoRestController {
 		if(result.hasErrors()) {
 			List<String> errors = result.getFieldErrors()
 					.stream()
-					.map(err-> err.getField() + " : " + err.getDefaultMessage())
+					.map(err-> "El campo '"+err.getField() + "' " + err.getDefaultMessage())
 					.collect(Collectors.toList());
 			response.put("errors", errors);
 			return new ResponseEntity<Map<String,Object>>(response,HttpStatus.BAD_REQUEST);		
@@ -116,14 +116,12 @@ public class ContactoRestController {
 		if(contactoService.findById(contacto.getId())!=null) {		
 			
 			if(result.hasErrors()) {
-				List<String> err = result.getFieldErrors()
+				List<String> errors = result.getFieldErrors()
 						.stream()
-						.map(err1 -> err1.getField()+" : "+err1.getDefaultMessage())
-						.collect(Collectors.toList())
-						;
-				
-				response.put("err", err);
-				return new ResponseEntity<Object>(response, HttpStatus.BAD_REQUEST);
+						.map(err-> "El campo '"+err.getField() + "' " + err.getDefaultMessage())
+						.collect(Collectors.toList());
+				response.put("errors", errors);
+				return new ResponseEntity<Map<String,Object>>(response,HttpStatus.BAD_REQUEST);		
 			}
 			
 			try {
