@@ -10,6 +10,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -19,27 +22,22 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Table(name = "contactos")
 public class Contacto implements Serializable {
 
-
-
-
 	@Id
 	@Column(unique = true, nullable = false)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	@Size(max = 50)
-	@Column(length = 50)
-	@NotNull
+	@Size(min = 2, max = 50, message="La longitud del nombre tiene que ser de 2 a 50 caracteres")
+	@NotNull(message="El campo nombre no puede estar vacio")
 	private String nombre;
-	@Size(max = 25)
-	@Column(length = 25)
-	@NotNull
+	@Min(value = 2, message = "La longitud del campo debe ser mayor a un digito")
+	@Column(nullable = false)
+	@NotNull(message="El campo numero no puede estar vacio")
 	private Long numero;
-	@Size(max = 25)
-	@Column(length = 25, columnDefinition="default 'null'")
+	@Min(value = 2, message = "La longitud del campo debe ser mayor a un digito")
+	@Column(nullable=true)
 	private Long numero_2;
 	@JsonIgnoreProperties({ "contactos", "hibernateLazyInitializer", "handler" })
 	@ManyToOne(fetch = FetchType.LAZY)
-	@NotNull
 	private Subgrupo subgrupo;
 
 	public Integer getId() {
@@ -81,7 +79,6 @@ public class Contacto implements Serializable {
 	public void setSubgrupo(Subgrupo subgrupo) {
 		this.subgrupo = subgrupo;
 	}
-
 
 	private static final long serialVersionUID = 1L;
 

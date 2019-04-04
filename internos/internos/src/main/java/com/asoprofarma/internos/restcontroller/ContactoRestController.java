@@ -1,10 +1,8 @@
 package com.asoprofarma.internos.restcontroller;
 
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import javax.validation.Valid;
@@ -26,6 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.asoprofarma.internos.entity.Contacto;
 import com.asoprofarma.internos.service.IContactoService;
+
+
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
 @RestController
 @RequestMapping("/api/contacto")
@@ -42,11 +42,11 @@ public class ContactoRestController {
 		
 		if(contacto == null) {
 			response.put("mensaje", "El contacto con ID: ".concat(String.valueOf(id)).concat(" no existe."));
-			return new ResponseEntity(response,HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Object>(response,HttpStatus.NOT_FOUND);
 		}
 		response.put("mensaje", "Contacto encontrado correctamente.");
 		response.put("contacto",contacto);	
-		return new ResponseEntity(response, HttpStatus.OK);
+		return new ResponseEntity<Object>(response, HttpStatus.OK);
 	}
 	
 	@GetMapping("/all")
@@ -57,26 +57,27 @@ public class ContactoRestController {
 		try {
 			contactos = contactoService.ListContactos();	
 			response.put("clientes", contactos);
-			return new ResponseEntity(contactos, HttpStatus.OK);
+			return new ResponseEntity<Object>(contactos, HttpStatus.OK);
 		}catch(DataAccessException e) {
 			response.put("mensaje", e.getMostSpecificCause());
-			return new ResponseEntity(e,HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<Object>(e,HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 			
 	}
 	
 	@PostMapping("/save")
 	private ResponseEntity<?> save(@Valid @RequestBody Contacto contacto, BindingResult result){
+		
 		Map<String,Object> response = new HashMap<>();
 		Contacto contactoNew = null;
 		
 		if(result.hasErrors()) {
-			List err = result.getFieldErrors()
+			List<String> errors = result.getFieldErrors()
 					.stream()
-					.map(err1-> err1.getField() + " : " + err1.getDefaultMessage())
+					.map(err-> err.getField() + " : " + err.getDefaultMessage())
 					.collect(Collectors.toList());
-			response.put("errors", err);
-			return new ResponseEntity(response,HttpStatus.BAD_REQUEST);		
+			response.put("errors", errors);
+			return new ResponseEntity<Map<String,Object>>(response,HttpStatus.BAD_REQUEST);		
 		}
 		
 		
@@ -84,10 +85,10 @@ public class ContactoRestController {
 			contactoNew = contactoService.save(contacto);			
 			response.put("contacto",contactoNew);
 			response.put("mensaje", "Contacto creado correctamente");
-			return new ResponseEntity(response, HttpStatus.CREATED);
+			return new ResponseEntity<Object>(response, HttpStatus.CREATED);
 		}catch(DataAccessException e) {
 			response.put("mensaje", e.getMostSpecificCause());
-			return new ResponseEntity(response, HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<Object>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		} 
 
 	}
@@ -99,10 +100,10 @@ public class ContactoRestController {
 		if(contactoDel != null) {
 			response.put("contacto", contactoDel);
 			response.put("mensaje", "El contacto"+ contactoDel.getNombre() +"fue eliminado correctamente");
-			return new ResponseEntity(response, HttpStatus.OK);
+			return new ResponseEntity<Object>(response, HttpStatus.OK);
 		}else {
 			response.put("mensaje", "El contacto que desea eliminar no existe");
-			return new ResponseEntity(response, HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Object>(response, HttpStatus.NOT_FOUND);
 		}
 		
 	}
@@ -115,14 +116,14 @@ public class ContactoRestController {
 		if(contactoService.findById(contacto.getId())!=null) {		
 			
 			if(result.hasErrors()) {
-				List err = result.getFieldErrors()
+				List<String> err = result.getFieldErrors()
 						.stream()
 						.map(err1 -> err1.getField()+" : "+err1.getDefaultMessage())
 						.collect(Collectors.toList())
 						;
 				
 				response.put("err", err);
-				return new ResponseEntity(response, HttpStatus.BAD_REQUEST);
+				return new ResponseEntity<Object>(response, HttpStatus.BAD_REQUEST);
 			}
 			
 			try {
@@ -135,16 +136,16 @@ public class ContactoRestController {
 				response.put("contacto", contactoService.save(update) );
 				response.put("mensaje", "Contacto "+ update.getNombre()+" actualizado correctamente");
 	
-				return new ResponseEntity(response,HttpStatus.OK);
+				return new ResponseEntity<Object>(response,HttpStatus.OK);
 			}catch(DataAccessException e) {
 				response.put("mensaje", e.getMostSpecificCause());
-				return new ResponseEntity(response,HttpStatus.INTERNAL_SERVER_ERROR);
+				return new ResponseEntity<Object>(response,HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 			
 			
 		}else {
 			response.put("mensaje", "El contacto que quiere actualizar no existe");
-			return new ResponseEntity(response,HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Object>(response,HttpStatus.NOT_FOUND);
 		}
 	
 	}
