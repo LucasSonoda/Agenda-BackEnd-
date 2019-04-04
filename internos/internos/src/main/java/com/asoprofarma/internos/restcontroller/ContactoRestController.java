@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
@@ -26,16 +28,21 @@ import com.asoprofarma.internos.entity.Contacto;
 import com.asoprofarma.internos.service.IContactoService;
 
 
+
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
 @RestController
 @RequestMapping("/api/contacto")
 public class ContactoRestController {
+	
+	private static final Logger logger = LogManager.getLogger(ContactoRestController.class.getName());
 	
 	@Autowired
 	private IContactoService contactoService;
 	
 	@GetMapping("/{id}")
 	private ResponseEntity<?> getContactoById(@PathVariable int id) {
+		
+		logger.info("Iniciando Busqueda");
 		
 		Contacto contacto = contactoService.findById(id);
 		Map<String, Object> response = new HashMap<String, Object>();

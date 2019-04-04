@@ -13,12 +13,17 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "contactos")
 public class Contacto implements Serializable {
-
+	
+	private static final Logger logger = LogManager.getLogger(Contacto.class.getName());
+	
 	@Id
 	@Column(unique = true, nullable = false)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -43,6 +48,10 @@ public class Contacto implements Serializable {
 	@JsonIgnoreProperties({ "contactos", "hibernateLazyInitializer", "handler" })
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Subgrupo subgrupo;
+	
+	public Contacto() {
+		logger.info("Clase iniciada");
+	}
 
 	public Integer getId() {
 		return id;
