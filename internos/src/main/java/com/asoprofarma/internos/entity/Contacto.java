@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -25,21 +26,22 @@ public class Contacto implements Serializable {
 	private Integer id;
 	
 	@NotEmpty(message="no puede estar vacio")
-	@Size(min = 2, max = 50, message="tiene que tener una longitud entre 2 a 50 caracteres")
+	@Size(min = 2, max = 50, message="tiene que tener una longitud entre 2 a 50 caracteres.")
 	@Column(nullable=false, length=50)
 	private String nombre;
 	
-	@Size(min= 2, message = "tiene que tener una longitud mayor a un digito")
+	@Size(min= 2, message = "tiene que tener una longitud mayor a un digito.")
 	@Size(max=25, message="es demasiado largo")
 	@Column(nullable = false,length=25)
 	@NotEmpty(message="no puede estar vacio")
 	private String numero;
 	
-	@Size(min= 2, message = "tiene que tener una longitud mayor a un digito")
+	@Size(min= 2, message = "tiene que tener una longitud mayor a un digito.")
 	@Size(max=25, message="es demasiado largo")
 	@Column(nullable=true, length=25)
 	private String numero_2;
 	
+	@NotNull(message="no fue seleccionado.")
 	@JsonIgnoreProperties({ "contactos", "hibernateLazyInitializer", "handler" })
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Subgrupo subgrupo;

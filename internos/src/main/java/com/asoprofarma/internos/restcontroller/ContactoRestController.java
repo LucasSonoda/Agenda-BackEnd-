@@ -67,7 +67,7 @@ public class ContactoRestController {
 		Map<String, Object> response = new HashMap<String, Object>();
 		
 		try {
-			contactos = contactoService.ListContactos();	
+			contactos =  contactoService.ListContactos();	
 			response.put("clientes", contactos);
 			logger.info("Contactos retornados correctamente. HttpStatus: "+String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Object>(contactos, HttpStatus.OK);

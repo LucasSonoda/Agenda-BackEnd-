@@ -71,3 +71,43 @@
 2019-04-05 10:36:04,677 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-8] El campo 'nombre' no puede estar vacio
 2019-04-05 10:36:04,677 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-8] ##
  ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:50:33,572 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] ##Error en los datos del Contacto.
+2019-04-05 11:50:33,573 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'nombre' no puede estar vacio
+2019-04-05 11:50:33,573 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'numero' es demasiado largo
+2019-04-05 11:50:33,573 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'subgrupo' no puede ser null
+2019-04-05 11:50:33,573 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:50:39,620 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] ##Error en los datos del Contacto.
+2019-04-05 11:50:39,621 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'nombre' no puede estar vacio
+2019-04-05 11:50:39,621 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'numero' no puede estar vacio
+2019-04-05 11:50:39,621 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'subgrupo' no puede ser null
+2019-04-05 11:50:39,621 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:51:56,435 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] ##Error en los datos del Contacto.
+2019-04-05 11:51:56,436 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'nombre' no puede estar vacio
+2019-04-05 11:51:56,436 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'subgrupo' Seleccione o cree un Subgrupo para este contacto.
+2019-04-05 11:51:56,436 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'numero' no puede estar vacio
+2019-04-05 11:51:56,437 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:52:30,714 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] ##Error en los datos del Contacto.
+2019-04-05 11:52:30,714 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'nombre' no puede estar vacio
+2019-04-05 11:52:30,714 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'numero' no puede estar vacio
+2019-04-05 11:52:30,714 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'subgrupo' no fue seleccionado.
+2019-04-05 11:52:30,715 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:52:59,241 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] ##Error en los datos del Contacto.
+2019-04-05 11:52:59,241 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'numero' no puede estar vacio
+2019-04-05 11:52:59,242 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] El campo 'nombre' no puede estar vacio
+2019-04-05 11:52:59,242 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-1] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:53:18,171 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-3] ##Error en los datos del Contacto.
+2019-04-05 11:53:18,171 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-3] El campo 'nombre' no puede estar vacio
+2019-04-05 11:53:18,171 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-3] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-05 11:53:32,824 ERROR c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Error al intentar grabar el contacto: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`sistematest`.`contactos`, CONSTRAINT `FKhfx2w3wjcicyoe9ww5u1y3evq` FOREIGN KEY (`subgrupo_id`) REFERENCES `subgrupos` (`id`))
+2019-04-05 12:01:02,384 ERROR c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Error al intentar grabar el contacto: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`sistematest`.`contactos`, CONSTRAINT `FKhfx2w3wjcicyoe9ww5u1y3evq` FOREIGN KEY (`subgrupo_id`) REFERENCES `subgrupos` (`id`))
+2019-04-05 12:01:25,294 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Solicitando todos los Contactos...
+2019-04-05 12:01:25,302 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contactos retornados correctamente. HttpStatus: 200 OK
+2019-04-05 12:07:32,306 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto 'Lucas' creado correctamente.
+2019-04-05 12:07:49,023 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Solicitando todos los Contactos...
+2019-04-05 12:07:49,049 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contactos retornados correctamente. HttpStatus: 200 OK
