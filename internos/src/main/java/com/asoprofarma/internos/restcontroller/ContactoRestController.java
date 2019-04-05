@@ -31,10 +31,10 @@ import com.asoprofarma.internos.service.IContactoService;
 
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
 @RestController
-@RequestMapping("/api/contacto")
+@RequestMapping("/contacto")
 public class ContactoRestController {
 	
-	private static final Logger logger = LogManager.getLogger(ContactoRestController.class.getName());
+	private static final Logger logger = LogManager.getLogger(ContactoRestController.class);
 	
 	@Autowired
 	private IContactoService contactoService;

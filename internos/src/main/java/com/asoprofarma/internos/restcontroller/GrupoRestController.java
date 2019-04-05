@@ -20,7 +20,7 @@ import com.asoprofarma.internos.entity.Subgrupo;
 import com.asoprofarma.internos.service.IGrupoService;
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
 @RestController
-@RequestMapping("/api/grupo")
+@RequestMapping("/grupo")
 public class GrupoRestController {
 
 	@Autowired

@@ -16,15 +16,26 @@
 				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
 			</PatternLayout>
 		</File>
+		<File name="FileAppenderDebug"
+			fileName="Logs/ApiDebug.log">
+			<PatternLayout>
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+		</File>
 	</Appenders>
 	<Loggers>
-	
-		<Logger  name="com.asoprofarma.internos.restcontroller"
+
+		<Logger name="com.asoprofarma.internos.restcontroller"
 			level="debug" additivity="false">
 			<AppenderRef ref="ConsoleAppender" />
 			<AppenderRef ref="FileAppender" />
 		</Logger>
-		<Root>
+		<Logger name="com.asoprofarma.internos"
+			level="DEBUG">
+			<AppenderRef ref="FileAppenderDebug" />
+			<AppenderRef ref="ConsoleAppender" />
+		</Logger>
+		<Root level="error">
 			<AppenderRef ref="ConsoleAppender" />
 		</Root>
 	</Loggers>

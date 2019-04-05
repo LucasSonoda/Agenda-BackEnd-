@@ -1,0 +1,56 @@
+2019-04-05 09:06:58,429 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:06:58,429 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:06:58,429 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:06:59,311 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:07:00,468 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.094 seconds (JVM running for 1827.589)
+2019-04-05 09:22:29,133 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:22:29,134 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:22:29,134 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:22:29,680 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:22:30,387 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.302 seconds (JVM running for 2757.509)
+2019-04-05 09:23:21,708 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:23:21,709 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:23:21,709 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:23:22,272 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:23:22,997 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.343 seconds (JVM running for 2810.117)
+2019-04-05 09:23:58,264 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:23:58,265 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:23:58,265 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:23:58,822 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:23:59,628 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.412 seconds (JVM running for 2846.749)
+2019-04-05 09:24:16,259 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:24:16,259 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:24:16,260 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:24:16,715 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:24:17,416 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.194 seconds (JVM running for 2864.537)
+2019-04-05 09:29:40,911 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:29:40,912 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:29:40,912 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:29:41,617 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:29:42,593 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.73 seconds (JVM running for 3189.714)
+2019-04-05 09:30:13,313 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:30:13,314 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:30:13,314 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:30:13,888 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:30:14,607 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.339 seconds (JVM running for 3221.728)
+2019-04-05 09:30:22,764 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:30:22,764 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:30:22,765 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:30:23,240 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:30:23,948 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.218 seconds (JVM running for 3231.069)
+2019-04-05 09:30:27,953 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 09:30:27,953 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 09:30:27,954 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 09:30:28,406 INFO c.a.i.e.Contacto [restartedMain] Clase iniciada
+2019-04-05 09:30:29,046 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.129 seconds (JVM running for 3236.167)
+2019-04-05 10:34:12,135 INFO c.a.i.e.Contacto [http-nio-8083-exec-3] Clase iniciada
+2019-04-05 10:34:30,641 INFO c.a.i.e.Contacto [http-nio-8083-exec-4] Clase iniciada
+2019-04-05 10:34:43,986 INFO c.a.i.e.Contacto [http-nio-8083-exec-5] Clase iniciada
+2019-04-05 10:34:54,205 INFO c.a.i.e.Contacto [http-nio-8083-exec-6] Clase iniciada
+2019-04-05 10:35:31,653 INFO c.a.i.e.Contacto [http-nio-8083-exec-7] Clase iniciada
+2019-04-05 10:36:04,675 INFO c.a.i.e.Contacto [http-nio-8083-exec-8] Clase iniciada
+2019-04-05 11:11:00,343 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15016 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-05 11:11:00,344 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-05 11:11:00,344 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-05 11:11:02,717 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.445 seconds (JVM running for 9269.838)
+2019-04-05 11:11:04,926 INFO c.a.i.InternosApplication [resta
