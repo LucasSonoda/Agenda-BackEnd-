@@ -11,19 +11,19 @@
 			follow="true">
 			<PatternLayout pattern="${LOG_PATTERN}" />
 		</Console>
-		<File name="FileAppender" fileName="logs/RestControllers.log">
+		<File name="FileAppender" fileName="Logs/Controllers.log">
 			<PatternLayout>
 				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
 			</PatternLayout>
 		</File>
 	</Appenders>
 	<Loggers>
-		<Logger name="com.asoprofarma.internos.restcontroller"
+	
+		<Logger  name="com.asoprofarma.internos.restcontroller"
 			level="debug" additivity="false">
 			<AppenderRef ref="ConsoleAppender" />
 			<AppenderRef ref="FileAppender" />
 		</Logger>
-
 		<Root>
 			<AppenderRef ref="ConsoleAppender" />
 		</Root>

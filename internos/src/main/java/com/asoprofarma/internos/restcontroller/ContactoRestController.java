@@ -42,30 +42,37 @@ public class ContactoRestController {
 	@GetMapping("/{id}")
 	private ResponseEntity<?> getContactoById(@PathVariable int id) {
 		
-		logger.info("Iniciando Busqueda");
+		logger.info("Buscando al contacto con ID: "+String.valueOf(id));
 		
 		Contacto contacto = contactoService.findById(id);
 		Map<String, Object> response = new HashMap<String, Object>();
 		
 		if(contacto == null) {
+			
+			logger.warn("##El contacto con ID: "+String.valueOf(id)+" no existe."+ " HttpStatus: "+String.valueOf(HttpStatus.NOT_FOUND));
 			response.put("mensaje", "El contacto con ID: ".concat(String.valueOf(id)).concat(" no existe."));
 			return new ResponseEntity<Object>(response,HttpStatus.NOT_FOUND);
 		}
+		
 		response.put("mensaje", "Contacto encontrado correctamente.");
-		response.put("contacto",contacto);	
+		response.put("contacto",contacto);
+		logger.info("Se encontro al contacto: "+contacto.getNombre()+". HttpStatus: "+ String.valueOf(HttpStatus.OK));
 		return new ResponseEntity<Object>(response, HttpStatus.OK);
 	}
 	
 	@GetMapping("/all")
 	private ResponseEntity<?> todos(){
+		logger.info("Solicitando todos los Contactos...");
 		List<Contacto> contactos = null;
 		Map<String, Object> response = new HashMap<String, Object>();
 		
 		try {
 			contactos = contactoService.ListContactos();	
 			response.put("clientes", contactos);
+			logger.info("Contactos retornados correctamente. HttpStatus: "+String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Object>(contactos, HttpStatus.OK);
 		}catch(DataAccessException e) {
+			logger.warn("##Error al intentar acceder a los contactos mensaje: "+e.getMostSpecificCause());
 			response.put("mensaje", e.getMostSpecificCause());
 			return new ResponseEntity<Object>(e,HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -77,13 +84,17 @@ public class ContactoRestController {
 		
 		Map<String,Object> response = new HashMap<>();
 		Contacto contactoNew = null;
-		
 		if(result.hasErrors()) {
 			List<String> errors = result.getFieldErrors()
 					.stream()
 					.map(err-> "El campo '"+err.getField() + "' " + err.getDefaultMessage())
 					.collect(Collectors.toList());
 			response.put("errors", errors);
+			logger.warn("##Error en los datos del Contacto.");
+			errors.forEach(error->{
+				logger.warn(error);
+			});
+			logger.warn("##"+"\n ##HttpStatus: "+String.valueOf(HttpStatus.BAD_REQUEST));
 			return new ResponseEntity<Map<String,Object>>(response,HttpStatus.BAD_REQUEST);		
 		}
 		
@@ -91,9 +102,11 @@ public class ContactoRestController {
 		try {
 			contactoNew = contactoService.save(contacto);			
 			response.put("contacto",contactoNew);
-			response.put("mensaje", "Contacto creado correctamente");
+			response.put("mensaje", "Contacto creado correctamente.");
+			logger.info("Contacto '"+ contacto.getNombre() +"' creado correctamente.");
 			return new ResponseEntity<Object>(response, HttpStatus.CREATED);
 		}catch(DataAccessException e) {
+			logger.error("Error al intentar grabar el contacto: "+ e.getMostSpecificCause());
 			response.put("mensaje", e.getMostSpecificCause());
 			return new ResponseEntity<Object>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		} 
@@ -106,10 +119,12 @@ public class ContactoRestController {
 		Contacto contactoDel = contactoService.findById(id);
 		if(contactoDel != null) {
 			response.put("contacto", contactoDel);
-			response.put("mensaje", "El contacto"+ contactoDel.getNombre() +"fue eliminado correctamente");
+			response.put("mensaje", "El contacto"+ contactoDel.getNombre() +"fue eliminado correctamente.");
+			logger.info("Contacto "+contactoDel.getNombre()+" eliminado correctamente. HttpStatus: "+ String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Object>(response, HttpStatus.OK);
 		}else {
-			response.put("mensaje", "El contacto que desea eliminar no existe");
+			logger.error("El contacto con ID: "+String.valueOf(id)+" no existe.");
+			response.put("mensaje", "El contacto que desea eliminar no existe.");
 			return new ResponseEntity<Object>(response, HttpStatus.NOT_FOUND);
 		}
 		
@@ -128,6 +143,11 @@ public class ContactoRestController {
 						.map(err-> "El campo '"+err.getField() + "' " + err.getDefaultMessage())
 						.collect(Collectors.toList());
 				response.put("errors", errors);
+				logger.warn("##Error en los datos del contacto que intenta actualizar.");
+				errors.forEach(error->{
+					logger.warn(error);
+				});
+				logger.warn("##"+"\n ##HttpStatus: "+String.valueOf(HttpStatus.BAD_REQUEST));
 				return new ResponseEntity<Map<String,Object>>(response,HttpStatus.BAD_REQUEST);		
 			}
 			
@@ -139,16 +159,18 @@ public class ContactoRestController {
 				update.setSubgrupo(contacto.getSubgrupo());
 				
 				response.put("contacto", contactoService.save(update) );
-				response.put("mensaje", "Contacto "+ update.getNombre()+" actualizado correctamente");
-	
+				response.put("mensaje", "Contacto "+ update.getNombre()+" actualizado correctamente.");
+				logger.info("Contacto "+update.getNombre()+" actualizado correctamente.");
 				return new ResponseEntity<Object>(response,HttpStatus.OK);
 			}catch(DataAccessException e) {
+				logger.error("Error al intentar grabar la actualizacion del contacto: "+ e.getMostSpecificCause());
 				response.put("mensaje", e.getMostSpecificCause());
 				return new ResponseEntity<Object>(response,HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 			
 			
 		}else {
+			logger.warn("El contacto con ID: "+ contacto.getId()+" que intenta actualizar no existe.");
 			response.put("mensaje", "El contacto que quiere actualizar no existe");
 			return new ResponseEntity<Object>(response,HttpStatus.NOT_FOUND);
 		}
