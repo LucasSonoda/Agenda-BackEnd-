@@ -10,11 +10,13 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
+	// Esta clase es donde centralizamos nuestros recursos y damos o quitamos
+	// acceso, igual en cada clase propiamente dicha vamos
+	// a ir tambien agregando los accesos de manera
+	// manual. Desde aca es global
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers(HttpMethod.GET, "/grupo/all").permitAll()
-		.anyRequest().authenticated();
+		http.authorizeRequests().antMatchers(HttpMethod.GET, "/grupo/all").permitAll().anyRequest().authenticated();
 	}
-	
-	
+
 }

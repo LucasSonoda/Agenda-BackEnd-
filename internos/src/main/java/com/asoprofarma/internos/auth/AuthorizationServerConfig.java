@@ -18,20 +18,20 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
-	@Autowired
+	@Autowired //AutoCasteamos el Encriptador de SpringSecurityConfig
 	private BCryptPasswordEncoder passwordEncoder;
 
-	@Autowired
+	@Autowired //AutoCasteamos el AuthenticacionManager de SpringSecurityConfig
 	@Qualifier("authenticationManager")
 	private AuthenticationManager authenticationManager;
 
-	@Override
+	@Override 
 	public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-		security.tokenKeyAccess("permitAll()")
-		.checkTokenAccess("isAuthenticated()");
+		security.tokenKeyAccess("permitAll()") //Indicamos que todos pueden pedirnos un token
+		.checkTokenAccess("isAuthenticated()"); //Indicamos que los usuarios authenticados pueden checkear el token
 	}
 
-	@Override
+	@Override //Aca se registan los clientes osea el FRONT-END
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
 		
 		clients.inMemory().withClient("internosApp")
@@ -44,19 +44,19 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	}
 
 	@Override /// Proceso de autenticacion, genera el token. Se valida tambien el token del
-				/// usuario
+				/// usuario. Osea se encarga de todo lo que tiene que ver con el token
 	public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
 		endpoints.authenticationManager(authenticationManager)
-				.tokenStore(tokenStore())
+				.tokenStore(tokenStore())  //Opcional
 				.accessTokenConverter(accessTokenConverter());
 	}
 
-	@Bean
+	@Bean //ES opcional ya que por debajo SpringSecurity lo genera, pero aca es un ejemplo de como utilizarlo
 	public JwtTokenStore tokenStore() {
 		return new JwtTokenStore(accessTokenConverter());
 	}
 
-	@Bean
+	@Bean //Esta es la llave que van a tener puestos nuestros tokens y poder ser validados.
 	public JwtAccessTokenConverter accessTokenConverter() {
 		JwtAccessTokenConverter jwtAccessTokenConverter = new JwtAccessTokenConverter();
 		jwtAccessTokenConverter.setSigningKey("internosApp.BackEnd.De.Agenda");

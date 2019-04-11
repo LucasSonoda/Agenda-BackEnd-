@@ -19,24 +19,24 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private UserDetailsService usuarioService;
 	
-	@Bean
+	@Bean //Encripta  las contraseñas
 	public BCryptPasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
 	
 	@Override
-	@Autowired
+	@Autowired //Regista el usuario en el AuthenticationManager
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception{
 		auth.userDetailsService(this.usuarioService).passwordEncoder(passwordEncoder());
 	}
 	
 	@Bean
-	@Override
+	@Override //Retornar el AuthenticationManager para utilizarlo en otra clase ( En esta caso la de OAuth2 ) 
 	protected AuthenticationManager authenticationManager() throws Exception {
 		return super.authenticationManager();
 	}
 
-	@Override
+	@Override //Desactivamos funcionalidad en Spring Securitty porque estamos manejando por tokens.
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests()
 		.anyRequest().authenticated()
