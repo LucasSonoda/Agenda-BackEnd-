@@ -38,7 +38,7 @@ public class SubgrupoRestController {
 	private ISubgrupoService subgrupoService;
 	
 	@GetMapping("/{id}")
-	private ResponseEntity<?> findById(@PathVariable Integer id) {
+	public ResponseEntity<?> findById(@PathVariable Integer id) {
 
 		Map<String, Object> response = new HashMap<>();
 		Subgrupo subgrupo = null;
@@ -62,7 +62,7 @@ public class SubgrupoRestController {
 	}
 	
 	@GetMapping("/all")
-	private ResponseEntity<?> todos() {
+	public ResponseEntity<?> todos() {
 		Map<String, Object> response = new HashMap<>();
 		List<Subgrupo> subgrupos = null;
 		try {
@@ -82,7 +82,7 @@ public class SubgrupoRestController {
 	
 	@Secured("ROLE_ADMIN")
 	@PostMapping("/save")
-	private ResponseEntity<?> save(@Valid @RequestBody Subgrupo subgrupo, BindingResult result) {
+	public ResponseEntity<?> save(@Valid @RequestBody Subgrupo subgrupo, BindingResult result) {
 
 		Map<String, Object> response = new HashMap<>();
 		Subgrupo subgrupoNew = null;
@@ -113,7 +113,7 @@ public class SubgrupoRestController {
 	
 	@Secured("ROLE_ADMIN")
 	@DeleteMapping("/delete")
-	private ResponseEntity<?> delete(@RequestBody Subgrupo subgrupo) {
+	public ResponseEntity<?> delete(@RequestBody Subgrupo subgrupo) {
 
 		Map<String, Object> response = new HashMap<>();
 
@@ -130,7 +130,7 @@ public class SubgrupoRestController {
 	
 	@Secured("ROLE_ADMIN")
 	@PutMapping("/update")
-	private ResponseEntity<?> update(@Valid @RequestBody Subgrupo subgrupo, BindingResult result) {
+	public ResponseEntity<?> update(@Valid @RequestBody Subgrupo subgrupo, BindingResult result) {
 
 		Map<String, Object> response = new HashMap<>();
 		Subgrupo update = subgrupoService.findById(subgrupo.getId());
