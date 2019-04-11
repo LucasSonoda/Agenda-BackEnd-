@@ -1,24 +1,23 @@
-package com.asoprofarma.internos.serviceimpl;
+package com.asoprofarma.internos.service;
 
 import java.util.List;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import com.asoprofarma.internos.dao.SubgrupoDao;
+import com.asoprofarma.internos.dao.ISubgrupoDao;
 import com.asoprofarma.internos.entity.Subgrupo;
-import com.asoprofarma.internos.service.ISubgrupoService;
 
 @Service
 public class ISubgrupoServiceImpl implements ISubgrupoService {
 
 	
 @Autowired	
-private SubgrupoDao subgrupoDao;
+private ISubgrupoDao subgrupoDao;
 	
 	@Override
+	@Transactional
 	public Subgrupo findById(Integer id) {
 		return  subgrupoDao.findById(id).orElse(null);
 	}

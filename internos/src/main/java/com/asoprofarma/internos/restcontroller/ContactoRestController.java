@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -29,9 +30,11 @@ import com.asoprofarma.internos.service.IContactoService;
 
 
 
-@CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
+
 @RestController
 @RequestMapping("/contacto")
+@Secured({"ROLE_USER"})
+@CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
 public class ContactoRestController {
 	
 	private static final Logger logger = LogManager.getLogger(ContactoRestController.class);
@@ -40,7 +43,7 @@ public class ContactoRestController {
 	private IContactoService contactoService;
 	
 	@GetMapping("/{id}")
-	private ResponseEntity<?> getContactoById(@PathVariable int id) {
+	public ResponseEntity<?> getContactoById(@PathVariable int id) {
 		
 		logger.info("Buscando al contacto con ID: "+String.valueOf(id));
 		
@@ -61,7 +64,7 @@ public class ContactoRestController {
 	}
 	
 	@GetMapping("/all")
-	private ResponseEntity<?> todos(){
+	public ResponseEntity<?> todos(){
 		logger.info("Solicitando todos los Contactos...");
 		List<Contacto> contactos = null;
 		Map<String, Object> response = new HashMap<String, Object>();
@@ -81,7 +84,8 @@ public class ContactoRestController {
 	}
 	
 	@PostMapping("/save")
-	private ResponseEntity<?> save(@Valid @RequestBody Contacto contacto, BindingResult result){
+	@Secured({"ROLE_ADMIN"})
+	public ResponseEntity<?> save(@Valid @RequestBody Contacto contacto, BindingResult result){
 		
 		Map<String,Object> response = new HashMap<>();
 		Contacto contactoNew = null;
@@ -115,7 +119,8 @@ public class ContactoRestController {
 	}
 	
 	@DeleteMapping("/delete/{id}")
-	private ResponseEntity<?> delete(@PathVariable int id ) {	
+	@Secured({"ROLE_ADMIN"})
+	public ResponseEntity<?> delete(@PathVariable int id ) {	
 		Map<String, Object> response = new HashMap<>();
 		Contacto contactoDel = contactoService.findById(id);
 		if(contactoDel != null) {
@@ -132,7 +137,8 @@ public class ContactoRestController {
 	}
 	
 	@PutMapping("/update")
-	private ResponseEntity<?> update(@Valid @RequestBody Contacto contacto, BindingResult result) {
+	@Secured({"ROLE_ADMIN"})
+	public ResponseEntity<?> update(@Valid @RequestBody Contacto contacto, BindingResult result) {
 		Map<String,Object> response = new HashMap<>();
 		Contacto update = null;
 		

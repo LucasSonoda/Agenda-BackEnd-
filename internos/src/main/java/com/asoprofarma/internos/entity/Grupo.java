@@ -27,7 +27,7 @@ public class Grupo implements Serializable {
 	@Column(name = "nombre", length = 50)
 	@NotNull
 	private String nombre;
-	@JsonIgnoreProperties({ "grupo","hibernateLazyInitializer", "handler"})
+	@JsonIgnoreProperties({"grupo","hibernateLazyInitializer", "handler"})
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "grupo")
 	private List<Subgrupo> subgrupos;
 

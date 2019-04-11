@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -26,15 +27,40 @@ import org.springframework.web.bind.annotation.RestController;
 import com.asoprofarma.internos.entity.Subgrupo;
 import com.asoprofarma.internos.service.ISubgrupoService;
 
-@CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201", "http://localhost:4200",
-		"http://10.10.1.119:4200" })
+
 @RestController
+@Secured("ROLE_USER")
 @RequestMapping("/subgrupo")
+@CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201", "http://localhost:4200","http://10.10.1.119:4200" })
 public class SubgrupoRestController {
 
 	@Autowired
 	private ISubgrupoService subgrupoService;
+	
+	@GetMapping("/{id}")
+	private ResponseEntity<?> findById(@PathVariable Integer id) {
 
+		Map<String, Object> response = new HashMap<>();
+		Subgrupo subgrupo = null;
+
+		try {
+			subgrupo = subgrupoService.findById(id);
+
+			if (subgrupo == null) {
+				response.put("mensaje", "El subgrupo con ID: " + id + " no existe");
+				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
+			}
+
+			response.put("subgrupo", subgrupo);
+			response.put("mensaje", "Subgrupo " + subgrupo.getNombre() + " encontrado correctamente");
+			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
+		} catch (DataAccessException e) {
+			response.put("mensaje", e.getMostSpecificCause());
+			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+
+	}
+	
 	@GetMapping("/all")
 	private ResponseEntity<?> todos() {
 		Map<String, Object> response = new HashMap<>();
@@ -53,7 +79,8 @@ public class SubgrupoRestController {
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
-
+	
+	@Secured("ROLE_ADMIN")
 	@PostMapping("/save")
 	private ResponseEntity<?> save(@Valid @RequestBody Subgrupo subgrupo, BindingResult result) {
 
@@ -83,7 +110,8 @@ public class SubgrupoRestController {
 		}
 
 	}
-
+	
+	@Secured("ROLE_ADMIN")
 	@DeleteMapping("/delete")
 	private ResponseEntity<?> delete(@RequestBody Subgrupo subgrupo) {
 
@@ -99,7 +127,8 @@ public class SubgrupoRestController {
 		}
 
 	}
-
+	
+	@Secured("ROLE_ADMIN")
 	@PutMapping("/update")
 	private ResponseEntity<?> update(@Valid @RequestBody Subgrupo subgrupo, BindingResult result) {
 
@@ -130,28 +159,5 @@ public class SubgrupoRestController {
 
 		}
 	}
-
-	@GetMapping("/{id}")
-	private ResponseEntity<?> findById(@PathVariable Integer id) {
-
-		Map<String, Object> response = new HashMap<>();
-		Subgrupo subgrupo = null;
-
-		try {
-			subgrupo = subgrupoService.findById(id);
-
-			if (subgrupo == null) {
-				response.put("mensaje", "El subgrupo con ID: " + id + " no existe");
-				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
-			}
-
-			response.put("subgrupo", subgrupo);
-			response.put("mensaje", "Subgrupo " + subgrupo.getNombre() + " encontrado correctamente");
-			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
-		} catch (DataAccessException e) {
-			response.put("mensaje", e.getMostSpecificCause());
-			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
-		}
-
-	}
+	
 }

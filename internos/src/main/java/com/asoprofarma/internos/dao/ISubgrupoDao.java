@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.asoprofarma.internos.entity.Subgrupo;
 
 @Repository
-public interface SubgrupoDao extends CrudRepository<Subgrupo, Integer>{
+public interface ISubgrupoDao extends CrudRepository<Subgrupo, Integer>{
 
 
 

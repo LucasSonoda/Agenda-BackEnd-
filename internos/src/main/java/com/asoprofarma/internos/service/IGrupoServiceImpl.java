@@ -1,24 +1,24 @@
-package com.asoprofarma.internos.serviceimpl;
+package com.asoprofarma.internos.service;
 
 import java.util.List;
 
-import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import com.asoprofarma.internos.dao.GrupoDao;
+import com.asoprofarma.internos.dao.IGrupoDao;
 import com.asoprofarma.internos.entity.Grupo;
-import com.asoprofarma.internos.service.IGrupoService;
 
 @Service
 public class IGrupoServiceImpl implements IGrupoService {
 
 	
 @Autowired
-private GrupoDao grupoDao;
+private IGrupoDao grupoDao;
 
 	@Override
+	@Transactional
 	public Grupo findById(Integer id) {
 		return grupoDao.findById(id).orElse(null);
 	}
@@ -37,6 +37,7 @@ private GrupoDao grupoDao;
 	}
 
 	@Override
+	@Transactional
 	public List<Grupo> ListGrupo() {
 		return (List<Grupo>)grupoDao.findAll();
 	}
