@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -41,7 +42,7 @@ public class Subgrupo implements Serializable {
 	private Grupo grupo;
 	
 	@JsonIgnoreProperties({ "subgrupo", "hibernateLazyInitializer", "handler" })
-	@OneToMany(fetch = FetchType.LAZY, mappedBy = "subgrupo")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "subgrupo",cascade = CascadeType.ALL)
 	private List<Contacto> contactos;
 
 	public Subgrupo() {

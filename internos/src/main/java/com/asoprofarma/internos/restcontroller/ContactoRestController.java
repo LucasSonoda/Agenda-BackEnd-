@@ -33,7 +33,6 @@ import com.asoprofarma.internos.service.IContactoService;
 
 @RestController
 @RequestMapping("/contacto")
-@Secured({"ROLE_USER"})
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201","http://localhost:4200", "http://10.10.1.119:4200" })
 public class ContactoRestController {
 	
@@ -124,6 +123,7 @@ public class ContactoRestController {
 		Map<String, Object> response = new HashMap<>();
 		Contacto contactoDel = contactoService.findById(id);
 		if(contactoDel != null) {
+			contactoService.delete(contactoDel);
 			response.put("contacto", contactoDel);
 			response.put("mensaje", "El contacto"+ contactoDel.getNombre() +"fue eliminado correctamente.");
 			logger.info("Contacto "+contactoDel.getNombre()+" eliminado correctamente. HttpStatus: "+ String.valueOf(HttpStatus.OK));

@@ -12,7 +12,7 @@ public interface ISubgrupoService {
 	
 	public Subgrupo save(Subgrupo subgrupo);
 	
-	public Subgrupo delete(Subgrupo	subgrupo);
+	public void delete(Subgrupo subgrupo);
 	
 	public List<Subgrupo> ListSubgrupo();
 }

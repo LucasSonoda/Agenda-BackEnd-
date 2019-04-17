@@ -17,7 +17,8 @@ public class ISubgrupoServiceImpl implements ISubgrupoService {
 private ISubgrupoDao subgrupoDao;
 	
 	@Override
-	@Transactional
+	
+	@Transactional(readOnly = true)
 	public Subgrupo findById(Integer id) {
 		return  subgrupoDao.findById(id).orElse(null);
 	}
@@ -30,12 +31,12 @@ private ISubgrupoDao subgrupoDao;
 
 	@Override
 	@Transactional
-	public Subgrupo delete(Subgrupo subgrupo) {
+	public void delete(Subgrupo subgrupo) {
 		subgrupoDao.delete(subgrupo);
-		return subgrupo;
 	}
 
 	@Override
+	@Transactional(readOnly = true)
 	public List<Subgrupo> ListSubgrupo() {
 		return (List<Subgrupo>) subgrupoDao.findAll();
 	}

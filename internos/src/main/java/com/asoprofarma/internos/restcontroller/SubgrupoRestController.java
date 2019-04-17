@@ -29,7 +29,6 @@ import com.asoprofarma.internos.service.ISubgrupoService;
 
 
 @RestController
-@Secured("ROLE_USER")
 @RequestMapping("/subgrupo")
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201", "http://localhost:4200","http://10.10.1.119:4200" })
 public class SubgrupoRestController {
@@ -112,17 +111,24 @@ public class SubgrupoRestController {
 	}
 	
 	@Secured("ROLE_ADMIN")
-	@DeleteMapping("/delete")
-	public ResponseEntity<?> delete(@RequestBody Subgrupo subgrupo) {
+	@DeleteMapping("/delete/{id}")
+	public ResponseEntity<?> delete(@PathVariable int id) {
 
 		Map<String, Object> response = new HashMap<>();
-
-		if (subgrupoService.findById(subgrupo.getId()) != null) {
-			response.put("subgrupo", subgrupoService.delete(subgrupo));
-			response.put("mensaje", "El subgrupo " + subgrupo.getNombre() + " fue eliminado exitosamente.");
+		Subgrupo subgrupoDel = subgrupoService.findById(id);
+		if (subgrupoDel != null) {
+			try {
+				subgrupoService.delete(subgrupoDel);
+			}catch(DataAccessException e) {
+				response.put("mensaje",e.getMostSpecificCause());
+				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+			}
+		
+			response.put("subgrupo",subgrupoDel );
+			response.put("mensaje", "El subgrupo " + subgrupoDel.getNombre() + " fue eliminado exitosamente.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 		} else {
-			response.put("mensaje", "El subgrupo " + subgrupo.getNombre() + " que intenta eliminar no existe.");
+			response.put("mensaje", "El subgrupo que intenta eliminar no existe.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
 

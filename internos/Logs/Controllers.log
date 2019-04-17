@@ -176,3 +176,207 @@
 2019-04-11 11:35:54,343 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contactos retornados correctamente. HttpStatus: 200 OK
 2019-04-11 11:36:00,997 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 1
 2019-04-11 11:36:01,002 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-12 17:51:10,529 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 1
+2019-04-12 17:51:10,559 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-12 17:52:04,407 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 1
+2019-04-12 17:52:04,416 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-12 17:52:18,928 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 1
+2019-04-12 17:52:18,934 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-12 17:53:06,189 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 1
+2019-04-12 17:53:06,205 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-12 17:53:26,292 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 1
+2019-04-12 17:53:26,302 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-12 17:58:27,655 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 1
+2019-04-12 17:58:27,660 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-15 08:38:08,372 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 1
+2019-04-15 08:38:08,400 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-15 11:03:05,088 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto 'Andres' creado correctamente.
+2019-04-15 11:06:12,853 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 1
+2019-04-15 11:06:12,860 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-15 11:07:45,032 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 1
+2019-04-15 11:07:45,040 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-15 11:07:56,641 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 1
+2019-04-15 11:07:56,646 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-15 11:08:00,249 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 2
+2019-04-15 11:08:00,252 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-15 11:08:09,003 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 2
+2019-04-15 11:08:09,008 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-15 11:08:16,228 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 1
+2019-04-15 11:08:16,232 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-15 18:02:43,629 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 1
+2019-04-15 18:02:43,651 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 11:14:47,437 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 1
+2019-04-16 11:14:47,459 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 11:14:49,920 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 2
+2019-04-16 11:14:49,927 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 11:23:28,246 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Buscando al contacto con ID: 1
+2019-04-16 11:23:28,266 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 11:49:57,275 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 1
+2019-04-16 11:49:57,284 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 11:49:59,208 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contacto Lucas1 actualizado correctamente.
+2019-04-16 11:50:00,485 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 1
+2019-04-16 11:50:00,491 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Lucas1. HttpStatus: 200 OK
+2019-04-16 11:50:02,168 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto Lucas actualizado correctamente.
+2019-04-16 12:01:06,468 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 1
+2019-04-16 12:01:06,492 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 13:19:52,344 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 1
+2019-04-16 13:19:52,354 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 13:20:06,641 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 1
+2019-04-16 13:20:06,644 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 13:20:14,146 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto Lucas eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:21:18,112 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 1
+2019-04-16 13:21:18,132 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 13:21:20,019 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contacto Lucas eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:21:26,886 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 2
+2019-04-16 13:21:26,892 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:21:28,648 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:23:11,204 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Contacto 'Andres' creado correctamente.
+2019-04-16 13:23:12,833 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 2
+2019-04-16 13:23:12,850 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:23:17,872 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:23:32,454 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Contacto 'Andres' creado correctamente.
+2019-04-16 13:23:35,075 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 3
+2019-04-16 13:23:35,079 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:25:09,775 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 3
+2019-04-16 13:25:09,778 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:28:48,049 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 3
+2019-04-16 13:28:48,051 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:29:04,618 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Andres actualizado correctamente.
+2019-04-16 13:29:09,835 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 3
+2019-04-16 13:29:09,838 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:29:11,676 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:32:30,264 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 1
+2019-04-16 13:32:30,268 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 13:32:43,868 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto 'Andres' creado correctamente.
+2019-04-16 13:32:46,085 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 4
+2019-04-16 13:32:46,087 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:32:50,634 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:37:41,354 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto 'Andres' creado correctamente.
+2019-04-16 13:37:42,749 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 5
+2019-04-16 13:37:42,753 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:37:45,034 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:38:53,508 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto 'Andres' creado correctamente.
+2019-04-16 13:38:54,452 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 6
+2019-04-16 13:38:54,454 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:38:56,389 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:39:46,168 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Andres' creado correctamente.
+2019-04-16 13:39:47,352 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 7
+2019-04-16 13:39:47,359 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:39:49,298 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:41:18,869 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 7
+2019-04-16 13:41:18,874 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-7] ##El contacto con ID: 7 no existe. HttpStatus: 404 NOT_FOUND
+2019-04-16 13:41:21,708 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 7
+2019-04-16 13:41:21,710 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-10] ##El contacto con ID: 7 no existe. HttpStatus: 404 NOT_FOUND
+2019-04-16 13:41:33,924 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto 'Andres' creado correctamente.
+2019-04-16 13:43:51,502 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 8
+2019-04-16 13:43:51,506 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:43:55,859 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:44:25,173 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Andres' creado correctamente.
+2019-04-16 13:44:27,818 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 9
+2019-04-16 13:44:27,821 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:44:31,989 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:45:03,001 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto 'andres' creado correctamente.
+2019-04-16 13:45:04,509 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 10
+2019-04-16 13:45:04,512 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: andres. HttpStatus: 200 OK
+2019-04-16 13:45:06,374 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 13:48:58,200 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Contacto 'Andres' creado correctamente.
+2019-04-16 13:48:59,351 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 11
+2019-04-16 13:48:59,354 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 13:49:01,106 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:00:56,846 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto 'Andres' creado correctamente.
+2019-04-16 14:00:59,183 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 2
+2019-04-16 14:00:59,186 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:01:02,317 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:30:48,923 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto 'Andres' creado correctamente.
+2019-04-16 14:30:50,637 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 2
+2019-04-16 14:30:50,641 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:30:53,060 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:33:32,089 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Contacto 'Andres' creado correctamente.
+2019-04-16 14:33:33,698 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 3
+2019-04-16 14:33:33,701 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:33:35,891 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:34:41,725 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Andres' creado correctamente.
+2019-04-16 14:34:43,165 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 4
+2019-04-16 14:34:43,168 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:34:44,836 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:47:34,658 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Contacto 'Andres' creado correctamente.
+2019-04-16 14:47:36,244 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Buscando al contacto con ID: 5
+2019-04-16 14:47:36,284 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:47:37,990 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:49:54,928 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto 'Andres' creado correctamente.
+2019-04-16 14:49:56,491 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 6
+2019-04-16 14:49:56,493 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:49:58,396 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:51:09,639 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Andres' creado correctamente.
+2019-04-16 14:51:12,398 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 7
+2019-04-16 14:51:12,401 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:51:14,578 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:52:32,885 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto 'Andres' creado correctamente.
+2019-04-16 14:52:34,339 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 8
+2019-04-16 14:52:34,342 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:52:36,547 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:53:25,812 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto 'Andres' creado correctamente.
+2019-04-16 14:53:27,574 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Buscando al contacto con ID: 9
+2019-04-16 14:53:27,576 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:53:29,446 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:55:55,341 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto 'Andres' creado correctamente.
+2019-04-16 14:55:56,517 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 2
+2019-04-16 14:55:56,520 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 14:56:01,109 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 14:59:42,091 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Buscando al contacto con ID: 1
+2019-04-16 14:59:42,096 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 14:59:45,776 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 1
+2019-04-16 14:59:45,778 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 14:59:47,547 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 1
+2019-04-16 14:59:47,551 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-16 15:25:05,548 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Andres' creado correctamente.
+2019-04-16 15:25:14,132 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto 'Sistema de farmacias' creado correctamente.
+2019-04-16 15:25:16,611 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Buscando al contacto con ID: 4
+2019-04-16 15:25:16,618 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Se encontro al contacto: Sistema de farmacias. HttpStatus: 200 OK
+2019-04-16 15:25:19,759 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto Sistema de farmacias eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:25:27,277 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 3
+2019-04-16 15:25:27,281 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 15:25:29,540 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:54:41,681 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] ##Error en los datos del Contacto.
+2019-04-16 15:54:41,692 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'numero' tiene que tener una longitud mayor a un digito.
+2019-04-16 15:54:41,692 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] El campo 'numero' no puede estar vacio
+2019-04-16 15:54:41,693 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-2] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-16 15:54:44,884 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto 'Andres' creado correctamente.
+2019-04-16 15:55:08,521 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-10] ##Error en los datos del Contacto.
+2019-04-16 15:55:08,521 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-10] El campo 'numero' no puede estar vacio
+2019-04-16 15:55:08,521 WARN c.a.i.r.ContactoRestController [http-nio-8083-exec-10] ##
+ ##HttpStatus: 400 BAD_REQUEST
+2019-04-16 15:55:11,579 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto 'Yanina' creado correctamente.
+2019-04-16 15:55:13,487 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 6
+2019-04-16 15:55:13,519 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Yanina. HttpStatus: 200 OK
+2019-04-16 15:55:15,213 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto Yanina eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:55:17,647 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 5
+2019-04-16 15:55:17,649 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 15:55:24,891 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:55:51,486 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Andres' creado correctamente.
+2019-04-16 15:55:57,156 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contacto 'Yanina' creado correctamente.
+2019-04-16 15:56:00,487 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 8
+2019-04-16 15:56:00,491 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Yanina. HttpStatus: 200 OK
+2019-04-16 15:56:02,377 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Contacto Yanina eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:56:04,825 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 7
+2019-04-16 15:56:04,829 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 15:56:06,513 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:59:42,169 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Contacto 'Andres' creado correctamente.
+2019-04-16 15:59:47,594 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto 'Yanina' creado correctamente.
+2019-04-16 15:59:49,026 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 10
+2019-04-16 15:59:49,028 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Yanina. HttpStatus: 200 OK
+2019-04-16 15:59:50,802 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Yanina eliminado correctamente. HttpStatus: 200 OK
+2019-04-16 15:59:53,157 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 9
+2019-04-16 15:59:53,159 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Andres. HttpStatus: 200 OK
+2019-04-16 15:59:56,709 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Contacto Andres eliminado correctamente. HttpStatus: 200 OK
+2019-04-17 13:52:17,718 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 1
+2019-04-17 13:52:17,731 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-17 15:51:05,422 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 1
+2019-04-17 15:51:05,438 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-17 15:51:10,302 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 1
+2019-04-17 15:51:10,307 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-17 16:16:34,551 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 1
+2019-04-17 16:16:34,558 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-17 16:38:24,920 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 1
+2019-04-17 16:38:24,945 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Lucas. HttpStatus: 200 OK

@@ -470,3 +470,234 @@
 2019-04-11 12:08:37,970 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
 2019-04-11 12:08:37,970 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
 2019-04-11 12:08:40,276 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.349 seconds (JVM running for 96055.655)
+2019-04-12 09:51:09,300 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 33236 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:51:09,311 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:51:09,312 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:51:54,740 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:51:54,756 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:51:54,756 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:52:02,653 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 8.306 seconds (JVM running for 9.761)
+2019-04-12 09:55:17,803 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:55:17,803 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:55:17,803 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:55:20,481 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.722 seconds (JVM running for 207.585)
+2019-04-12 09:55:24,916 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:55:24,916 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:55:24,916 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:55:27,452 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.58 seconds (JVM running for 214.547)
+2019-04-12 09:55:53,169 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:55:53,169 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:55:53,169 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:55:55,514 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.392 seconds (JVM running for 242.621)
+2019-04-12 09:56:10,620 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:56:10,620 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:56:10,620 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:56:13,229 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.64 seconds (JVM running for 260.328)
+2019-04-12 09:57:21,010 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:57:21,010 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:57:21,010 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:57:48,339 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:57:48,339 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:57:48,339 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:57:53,010 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.695 seconds (JVM running for 360.108)
+2019-04-12 09:59:32,268 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 09:59:32,268 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 09:59:32,268 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 09:59:34,606 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.384 seconds (JVM running for 461.711)
+2019-04-12 10:01:05,437 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:01:05,437 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:01:05,437 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 10:01:07,866 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.46 seconds (JVM running for 554.973)
+2019-04-12 10:04:47,841 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:04:47,841 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:04:47,841 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 10:04:50,391 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.597 seconds (JVM running for 777.496)
+2019-04-12 10:45:51,495 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:45:51,496 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:45:51,496 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 10:45:54,117 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.674 seconds (JVM running for 3241.223)
+2019-04-12 10:46:01,659 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:46:01,659 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:46:01,659 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 10:46:04,396 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.79 seconds (JVM running for 3251.498)
+2019-04-12 10:48:33,800 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:48:33,800 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:48:33,800 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 10:52:08,818 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:52:08,818 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:52:08,818 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 10:54:31,992 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 10:54:31,992 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 10:54:31,993 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 11:00:31,556 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 11:00:31,556 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 11:00:31,556 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 11:00:34,231 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.877 seconds (JVM running for 4121.329)
+2019-04-12 11:04:55,739 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 11:04:55,739 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 11:04:55,739 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 11:04:57,996 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.288 seconds (JVM running for 4385.098)
+2019-04-12 17:30:43,166 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:30:43,167 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:30:43,168 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:30:46,848 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.8 seconds (JVM running for 27533.945)
+2019-04-12 17:31:20,366 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:31:20,366 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:31:20,366 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:31:22,809 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.488 seconds (JVM running for 27569.907)
+2019-04-12 17:31:42,034 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:31:42,034 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:31:42,035 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:31:44,846 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.914 seconds (JVM running for 27591.946)
+2019-04-12 17:33:10,117 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:33:10,117 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:33:10,133 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:33:12,871 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.868 seconds (JVM running for 27679.966)
+2019-04-12 17:34:02,729 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:34:02,730 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:34:02,730 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:34:06,024 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.392 seconds (JVM running for 27733.119)
+2019-04-12 17:34:40,850 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:34:40,850 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:34:40,851 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:34:45,283 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.516 seconds (JVM running for 27772.387)
+2019-04-12 17:35:52,696 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:35:52,696 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:35:52,696 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:35:54,923 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.274 seconds (JVM running for 27842.018)
+2019-04-12 17:36:37,915 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:36:37,930 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:36:37,930 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:36:41,856 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.968 seconds (JVM running for 27888.956)
+2019-04-12 17:40:11,302 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:40:11,302 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:40:11,302 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:40:13,895 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.627 seconds (JVM running for 28100.99)
+2019-04-12 17:40:55,609 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:40:55,609 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:40:55,609 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:40:58,700 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.13 seconds (JVM running for 28145.796)
+2019-04-12 17:41:02,126 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:41:02,126 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:41:02,126 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:41:04,624 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.529 seconds (JVM running for 28151.731)
+2019-04-12 17:42:38,555 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:42:38,555 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:42:38,555 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:42:41,098 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.581 seconds (JVM running for 28248.193)
+2019-04-12 17:42:54,083 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:42:54,084 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:42:54,084 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:42:56,570 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.601 seconds (JVM running for 28263.664)
+2019-04-12 17:48:41,072 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:48:41,072 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:48:41,072 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:48:45,255 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.23 seconds (JVM running for 28612.352)
+2019-04-12 17:49:12,946 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:49:12,946 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:49:12,947 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:49:15,699 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.824 seconds (JVM running for 28642.794)
+2019-04-12 17:49:32,839 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:49:32,839 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:49:32,839 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:49:35,751 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.943 seconds (JVM running for 28662.846)
+2019-04-12 17:50:19,552 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:50:19,552 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:50:19,552 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:50:23,383 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.932 seconds (JVM running for 28710.481)
+2019-04-12 17:50:37,325 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:50:37,325 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:50:37,325 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:50:39,770 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.491 seconds (JVM running for 28726.873)
+2019-04-12 17:52:58,167 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:52:58,167 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:52:58,167 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:53:02,274 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.235 seconds (JVM running for 28869.37)
+2019-04-12 17:53:16,591 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-12 17:53:16,591 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-12 17:53:16,591 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-12 17:53:20,466 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.992 seconds (JVM running for 28887.565)
+2019-04-16 13:22:46,442 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:22:46,442 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:22:46,443 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:22:50,322 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.003 seconds (JVM running for 358257.416)
+2019-04-16 13:57:14,370 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:57:14,370 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:57:14,370 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:57:17,305 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.003 seconds (JVM running for 360324.399)
+2019-04-16 13:57:38,959 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:57:38,960 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:57:38,960 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:57:42,358 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.456 seconds (JVM running for 360349.453)
+2019-04-16 13:57:45,585 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:57:45,585 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:57:45,585 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:57:48,977 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.417 seconds (JVM running for 360356.071)
+2019-04-16 13:58:29,551 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:58:29,551 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:58:29,551 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:58:32,317 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.813 seconds (JVM running for 360399.411)
+2019-04-16 13:58:41,943 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:58:41,943 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:58:41,943 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:58:44,637 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.755 seconds (JVM running for 360411.734)
+2019-04-16 13:59:15,151 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:59:15,151 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:59:15,152 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:59:17,835 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.741 seconds (JVM running for 360444.945)
+2019-04-16 13:59:39,546 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:59:39,547 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:59:39,547 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:59:42,455 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.952 seconds (JVM running for 360469.549)
+2019-04-16 13:59:49,296 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 13:59:49,297 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 13:59:49,297 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 13:59:51,835 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.581 seconds (JVM running for 360478.934)
+2019-04-16 14:00:21,406 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 14:00:21,406 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 14:00:21,407 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 14:00:25,402 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.035 seconds (JVM running for 360512.497)
+2019-04-16 14:24:52,788 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 14:24:52,788 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 14:24:52,788 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 14:24:55,572 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.815 seconds (JVM running for 361982.668)
+2019-04-16 14:25:10,294 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 14:25:10,294 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 14:25:10,295 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 14:25:13,224 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.987 seconds (JVM running for 362000.322)
+2019-04-16 14:30:18,007 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 14:30:18,008 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 14:30:18,008 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 14:30:20,637 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.684 seconds (JVM running for 362307.745)
+2019-04-16 14:30:32,126 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 14:30:32,127 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 14:30:32,127 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 14:30:34,914 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.828 seconds (JVM running for 362322.008)
+2019-04-16 14:54:32,946 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 42824 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-16 14:54:32,948 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-16 14:54:32,948 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-16 14:54:36,173 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.291 seconds (JVM running for 363763.268)
+2019-04-17 13:21:17,534 INFO c.a.i.InternosApplicationTests [main] Starting InternosApplicationTests on Arielsistemas with PID 14496 (started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-17 13:21:17,566 DEBUG c.a.i.InternosApplicationTests [main] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-17 13:21:17,566 INFO c.a.i.InternosApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-04-17 13:21:31,218 INFO c.a.i.InternosApplicationTests [main] Started InternosApplicationTests in 14.2 seconds (JVM running for 16.166)
+2019-04-17 13:21:43,495 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 9928 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-17 13:21:43,495 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-17 13:21:43,495 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-17 13:21:50,081 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 6.876 seconds (JVM running for 8.251)
+2019-04-17 16:24:02,278 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 9928 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-17 16:24:02,278 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-17 16:24:02,278 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-17 16:24:05,478 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.292 seconds (JVM running for 10943.643)
+2019-04-17 17:03:46,451 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 9928 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-17 17:03:46,451 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-17 17:03:46,452 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-17 17:03:50,395 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.125 seconds (JVM running for 13328.561)
+2019-04-17 17:07:42,963 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 9928 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-17 17:07:42,964 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-17 17:07:42,964 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-17 17:07:45,419 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.503 seconds (JVM running for 13563.585)
+2019-04-17 17:08:17,823 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 9928 (C:\Users\AsoprofarmaCPL\git\repository\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\repository\internos)
+2019-04-17 17:08:17,823 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-17 17:08:17,824 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-17 17:08:20,598 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.817 seconds (JVM running for 13598.764)
