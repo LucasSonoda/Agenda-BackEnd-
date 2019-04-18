@@ -33,7 +33,9 @@ public class GrupoRestController {
 	
 	@GetMapping("/{id}")
 	public Grupo findById(@PathVariable int id) {
-		return grupoService.findById(id);
+		Grupo grupo = grupoService.findById(id);
+		Collections.sort(grupo.getSubgrupos(), Subgrupo.sortByNombreAscend);
+		return grupo;
 	}
 	
 	@GetMapping("/all")
