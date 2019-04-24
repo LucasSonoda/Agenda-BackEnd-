@@ -395,3 +395,123 @@
 2019-04-18 15:59:57,235 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Contacto 'Sistema de farmacias' creado correctamente.
 2019-04-18 17:04:35,590 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 1
 2019-04-18 17:04:35,610 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Lucas. HttpStatus: 200 OK
+2019-04-19 15:02:25,152 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 70
+2019-04-19 15:02:25,160 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Magalí. HttpStatus: 200 OK
+2019-04-19 17:17:10,885 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 44
+2019-04-19 17:17:10,891 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Bunker Nuñez - Miguel Lobos. HttpStatus: 200 OK
+2019-04-19 17:17:15,339 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 15
+2019-04-19 17:17:15,343 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Noemi. HttpStatus: 200 OK
+2019-04-19 18:24:26,469 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 69
+2019-04-19 18:24:26,473 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: (Accesorios) Laura. HttpStatus: 200 OK
+2019-04-19 18:24:30,467 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 69
+2019-04-19 18:24:30,470 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: (Accesorios) Laura. HttpStatus: 200 OK
+2019-04-19 18:24:36,410 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 33
+2019-04-19 18:24:36,413 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Ariel. HttpStatus: 200 OK
+2019-04-19 18:24:49,553 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 57
+2019-04-19 18:24:49,556 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: (Accesorios) Omar Holstein. HttpStatus: 200 OK
+2019-04-19 19:15:05,323 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 44
+2019-04-19 19:15:05,330 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Bunker Nuñez - Miguel Lobos. HttpStatus: 200 OK
+2019-04-19 19:15:08,277 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 45
+2019-04-19 19:15:08,280 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Sandra - Claudia. HttpStatus: 200 OK
+2019-04-19 19:15:11,423 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 9
+2019-04-19 19:15:11,425 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Consejo. HttpStatus: 200 OK
+2019-04-19 19:15:14,472 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 9
+2019-04-19 19:15:14,475 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Consejo. HttpStatus: 200 OK
+2019-04-19 19:15:17,417 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 23
+2019-04-19 19:15:17,419 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Gabriela. HttpStatus: 200 OK
+2019-04-19 19:15:21,439 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 24
+2019-04-19 19:15:21,442 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Emilio. HttpStatus: 200 OK
+2019-04-19 19:15:26,128 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 24
+2019-04-19 19:15:26,130 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Emilio. HttpStatus: 200 OK
+2019-04-19 19:15:56,659 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 84
+2019-04-19 19:15:56,662 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Mario. HttpStatus: 200 OK
+2019-04-19 19:15:59,088 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 35
+2019-04-19 19:15:59,090 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Cabina Rotativas. HttpStatus: 200 OK
+2019-04-19 19:16:01,822 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 12
+2019-04-19 19:16:01,823 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Graciela Moya. HttpStatus: 200 OK
+2019-04-19 19:16:03,914 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 12
+2019-04-19 19:16:03,917 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Graciela Moya. HttpStatus: 200 OK
+2019-04-19 19:16:06,072 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 24
+2019-04-19 19:16:06,074 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Emilio. HttpStatus: 200 OK
+2019-04-19 20:22:11,399 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 18
+2019-04-19 20:22:11,405 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-19 20:52:52,577 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 18
+2019-04-19 20:52:52,587 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-19 20:53:15,836 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 37
+2019-04-19 20:53:15,838 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Nora. HttpStatus: 200 OK
+2019-04-19 20:54:41,602 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 18
+2019-04-19 20:54:41,608 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-19 20:54:50,146 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 49
+2019-04-19 20:54:50,149 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Bunker Recepcion - Facundo. HttpStatus: 200 OK
+2019-04-19 21:05:56,203 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 18
+2019-04-19 21:05:56,205 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-19 22:38:37,421 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 31
+2019-04-19 22:38:37,426 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Mauro. HttpStatus: 200 OK
+2019-04-20 01:48:38,626 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Buscando al contacto con ID: 20
+2019-04-20 01:48:38,633 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Se encontro al contacto: Claudia - Silvina - Eugenia. HttpStatus: 200 OK
+2019-04-23 15:52:26,701 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Contacto 'Lucas2' creado correctamente.
+2019-04-23 15:53:16,934 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 93
+2019-04-23 15:53:16,938 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Lucas2. HttpStatus: 200 OK
+2019-04-23 15:53:18,912 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Contacto Lucas2 eliminado correctamente. HttpStatus: 200 OK
+2019-04-23 17:08:23,885 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-23 17:09:00,563 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-23 17:09:16,495 INFO c.a.i.restcontroller [http-nio-8083-exec-4] ** Admin **
+2019-04-23 17:09:16,895 INFO c.a.i.restcontroller [http-nio-8083-exec-6] ** Admin **
+2019-04-23 17:09:17,556 INFO c.a.i.restcontroller [http-nio-8083-exec-7] ** Admin **
+2019-04-23 17:09:32,640 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-23 17:10:13,383 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-23 17:10:30,657 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-23 17:10:33,960 INFO c.a.i.restcontroller [http-nio-8083-exec-4] ** Admin **
+2019-04-23 17:10:44,343 INFO c.a.i.restcontroller [http-nio-8083-exec-6] ** Admin **
+2019-04-23 17:10:44,379 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Contacto 'Lucas2' creado correctamente.
+2019-04-23 17:10:44,397 INFO c.a.i.restcontroller [http-nio-8083-exec-8] ** Admin **
+2019-04-23 17:12:56,278 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 94
+2019-04-23 17:12:56,282 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Lucas2. HttpStatus: 200 OK
+2019-04-23 17:12:57,743 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Lucas2 eliminado correctamente. HttpStatus: 200 OK
+2019-04-23 17:13:08,248 INFO c.a.i.restcontroller [http-nio-8083-exec-8] ** Admin **
+2019-04-23 17:13:08,288 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto 'lucas2' creado correctamente.
+2019-04-23 17:14:49,166 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 95
+2019-04-23 17:14:49,171 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: lucas2. HttpStatus: 200 OK
+2019-04-23 17:14:51,185 INFO c.a.i.restcontroller [http-nio-8083-exec-3] ** Admin **
+2019-04-23 17:14:51,198 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-3] Contacto lucas2 eliminado correctamente. HttpStatus: 200 OK
+2019-04-24 01:02:26,024 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 90
+2019-04-24 01:02:26,029 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Oficina - Nuevo. HttpStatus: 200 OK
+2019-04-24 01:12:14,895 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Buscando al contacto con ID: 18
+2019-04-24 01:12:14,901 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-7] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-24 01:12:30,020 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Contacto Graciela Romero actualizado correctamente.
+2019-04-24 01:12:56,093 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 18
+2019-04-24 01:12:56,098 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-24 01:13:13,132 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Buscando al contacto con ID: 49
+2019-04-24 01:13:13,133 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-9] Se encontro al contacto: Bunker Recepcion - Facundo. HttpStatus: 200 OK
+2019-04-24 01:13:18,542 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-24 01:13:18,552 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Bunker Recepcion - Facundo actualizado correctamente.
+2019-04-24 01:13:59,474 INFO c.a.i.restcontroller [http-nio-8083-exec-4] ** Admin **
+2019-04-24 01:13:59,478 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 18
+2019-04-24 01:13:59,485 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-24 01:14:17,659 INFO c.a.i.restcontroller [http-nio-8083-exec-10] ** Admin **
+2019-04-24 01:14:17,661 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Buscando al contacto con ID: 45
+2019-04-24 01:14:17,663 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-10] Se encontro al contacto: Sandra - Claudia. HttpStatus: 200 OK
+2019-04-24 01:14:32,276 INFO c.a.i.restcontroller [http-nio-8083-exec-2] ** Admin **
+2019-04-24 01:14:32,289 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Contacto Sandra - Claudia actualizado correctamente.
+2019-04-24 01:14:40,783 INFO c.a.i.restcontroller [http-nio-8083-exec-8] ** Admin **
+2019-04-24 01:14:40,784 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 18
+2019-04-24 01:14:40,787 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-24 01:17:37,420 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 18
+2019-04-24 01:17:37,425 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Graciela Romero. HttpStatus: 200 OK
+2019-04-24 01:17:55,032 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Graciela Romero actualizado correctamente.
+2019-04-24 01:17:58,282 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 49
+2019-04-24 01:17:58,283 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Bunker Recepcion - Facundo. HttpStatus: 200 OK
+2019-04-24 01:18:10,209 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Buscando al contacto con ID: 47
+2019-04-24 01:18:10,215 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-6] Se encontro al contacto: Daniel - Noemi - Ana. HttpStatus: 200 OK
+2019-04-24 01:18:16,584 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Buscando al contacto con ID: 43
+2019-04-24 01:18:16,587 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-2] Se encontro al contacto: Comedor. HttpStatus: 200 OK
+2019-04-24 01:18:40,279 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Buscando al contacto con ID: 47
+2019-04-24 01:18:40,287 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-5] Se encontro al contacto: Daniel - Noemi - Ana. HttpStatus: 200 OK
+2019-04-24 01:18:47,455 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Contacto Daniel - Noemi - Ana actualizado correctamente.
+2019-04-24 01:18:52,625 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Buscando al contacto con ID: 44
+2019-04-24 01:18:52,627 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-4] Se encontro al contacto: Bunker Nuñez - Miguel Lobos. HttpStatus: 200 OK
+2019-04-24 01:19:06,383 INFO c.a.i.restcontroller [http-nio-8083-exec-1] ** Admin **
+2019-04-24 01:19:06,400 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-1] Contacto Bunker Nuñez - Miguel Lobos actualizado correctamente.
+2019-04-24 01:19:08,420 INFO c.a.i.restcontroller [http-nio-8083-exec-8] ** Admin **
+2019-04-24 01:19:08,422 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Buscando al contacto con ID: 35
+2019-04-24 01:19:08,424 INFO c.a.i.r.ContactoRestController [http-nio-8083-exec-8] Se encontro al contacto: Cabina Rotativas. HttpStatus: 200 OK

@@ -82,8 +82,8 @@ public class ContactoRestController {
 			
 	}
 	
-	@PostMapping("/save")
 	@Secured({"ROLE_ADMIN"})
+	@PostMapping("/save")
 	public ResponseEntity<?> save(@Valid @RequestBody Contacto contacto, BindingResult result){
 		
 		Map<String,Object> response = new HashMap<>();

@@ -43,7 +43,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 				// tokens.
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().anyRequest().authenticated().and().csrf()
-				.disable().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+				.disable().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);;
 	}
 
 }

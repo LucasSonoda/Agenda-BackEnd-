@@ -15,6 +15,8 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+import com.asoprofarma.internos.filter.UserFilter;
+
 
 @Configuration
 @EnableResourceServer
@@ -41,6 +43,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		source.registerCorsConfiguration("/**", config);
+	
 		return source;
 	}
 	
@@ -50,4 +53,15 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		filter.setOrder(Ordered.HIGHEST_PRECEDENCE);
 		return filter;
 	}
+	
+	@Bean
+	public FilterRegistrationBean<UserFilter> userFilter2 (){
+		FilterRegistrationBean<UserFilter> filter = new FilterRegistrationBean<>();
+		filter.setFilter(new UserFilter());
+		filter.addUrlPatterns("/contacto/*");
+		filter.setOrder(Ordered.HIGHEST_PRECEDENCE);
+		return filter;
+	}
+	
+	
 }

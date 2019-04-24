@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
@@ -32,13 +34,15 @@ import com.asoprofarma.internos.service.ISubgrupoService;
 @RequestMapping("/subgrupo")
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201", "http://localhost:4200","http://10.10.1.119:4200" })
 public class SubgrupoRestController {
-
+	
+	private static final Logger logger = LogManager.getLogger(Subgrupo.class);
+	
 	@Autowired
 	private ISubgrupoService subgrupoService;
 	
 	@GetMapping("/{id}")
 	public ResponseEntity<?> findById(@PathVariable Integer id) {
-
+		logger.info("Buscando al subgrupo con ID: "+String.valueOf(id));
 		Map<String, Object> response = new HashMap<>();
 		Subgrupo subgrupo = null;
 
@@ -46,12 +50,14 @@ public class SubgrupoRestController {
 			subgrupo = subgrupoService.findById(id);
 
 			if (subgrupo == null) {
+				logger.warn("##El subgrupo con ID: "+String.valueOf(id)+" no existe."+ " HttpStatus: "+String.valueOf(HttpStatus.NOT_FOUND));
 				response.put("mensaje", "El subgrupo con ID: " + id + " no existe");
 				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 			}
-
+			
 			response.put("subgrupo", subgrupo);
 			response.put("mensaje", "Subgrupo " + subgrupo.getNombre() + " encontrado correctamente");
+			logger.info("Se encontro al subgrupo: "+subgrupo.getNombre()+". HttpStatus: "+ String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 		} catch (DataAccessException e) {
 			response.put("mensaje", e.getMostSpecificCause());
@@ -62,6 +68,7 @@ public class SubgrupoRestController {
 	
 	@GetMapping("/all")
 	public ResponseEntity<?> todos() {
+		logger.info("Solicitando todos los Subgrupos...");
 		Map<String, Object> response = new HashMap<>();
 		List<Subgrupo> subgrupos = null;
 		try {
@@ -70,10 +77,11 @@ public class SubgrupoRestController {
 			Collections.sort(subgrupos, Subgrupo.sortByNombreAscend);
 			response.put("subgrupos", subgrupos);
 			response.put("mensaje", "Subgrupos obtenidos correctamente.");
-
+			logger.info("Subgrupos retornados correctamente. HttpStatus: "+String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 
 		} catch (DataAccessException e) {
+			logger.warn("##Error al intentar acceder a los subgrupos mensaje: "+e.getMostSpecificCause());
 			response.put("mensaje", e.getMostSpecificCause());
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -100,10 +108,11 @@ public class SubgrupoRestController {
 			subgrupoNew = subgrupoService.save(subgrupo);
 			response.put("subgrupo", subgrupoNew);
 			response.put("mensaje", "Subgrupo creado correctamente.");
-
+			logger.info("Contacto '"+ subgrupo.getNombre() +"' creado correctamente.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 
 		} catch (DataAccessException e) {
+			logger.error("Error al intentar grabar el subgrupo: "+ e.getMostSpecificCause());
 			response.put("mensaje", e.getMostSpecificCause());
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -126,8 +135,10 @@ public class SubgrupoRestController {
 		
 			response.put("subgrupo",subgrupoDel );
 			response.put("mensaje", "El subgrupo " + subgrupoDel.getNombre() + " fue eliminado exitosamente.");
+			logger.info("Subgrupo "+subgrupoDel.getNombre()+" eliminado correctamente. HttpStatus: "+ String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 		} else {
+			logger.error("El subgrupo con ID: "+String.valueOf(id)+" no existe.");
 			response.put("mensaje", "El subgrupo que intenta eliminar no existe.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
@@ -156,10 +167,11 @@ public class SubgrupoRestController {
 
 			response.put("subgrupo", update);
 			response.put("mensaje", "Subgrupo " + update.getNombre() + " actualizado correctamente.");
+			logger.info("Sbugrupo "+update.getNombre()+" actualizado correctamente.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 
 		} else {
-
+			logger.error("El subgrupo " + subgrupo.getNombre() + " que intenta actualizar no existe.");
 			response.put("mensaje", "El subgrupo " + subgrupo.getNombre() + " que intenta actualizar no existe.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 
