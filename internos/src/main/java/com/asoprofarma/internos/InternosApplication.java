@@ -22,6 +22,7 @@ public class InternosApplication implements CommandLineRunner {
 		
 		for(int i=0; i<4; i++) {
 			String passwordBcrypt = passwordEncoder.encode(password);
+			
 		}
 	}
 
