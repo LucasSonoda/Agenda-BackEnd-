@@ -1706,17 +1706,3 @@
 2019-04-24 01:19:03,665 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 0.847 seconds (JVM running for 37251.482)
 2019-04-24 01:19:08,423 INFO c.a.i.e.Subgrupo [http-nio-8083-exec-7] Solicitando todos los Subgrupos...
 2019-04-24 01:19:08,429 INFO c.a.i.e.Subgrupo [http-nio-8083-exec-7] Subgrupos retornados correctamente. HttpStatus: 200 OK
-2019-04-25 21:14:36,868 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on DESKTOP-6TRO48N with PID 8292 (C:\Users\Lucas\git\Agenda-BackEnd-\internos\target\classes started by Lucas in C:\Users\Lucas\git\Agenda-BackEnd-\internos)
-2019-04-25 21:14:36,872 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 21:14:36,872 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 21:14:38,575 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
-2019-04-25 21:14:41,072 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.406 seconds (JVM running for 5.202)
-2019-04-25 21:15:24,069 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on DESKTOP-6TRO48N with PID 8292 (C:\Users\Lucas\git\Agenda-BackEnd-\internos\target\classes started by Lucas in C:\Users\Lucas\git\Agenda-BackEnd-\internos)
-2019-04-25 21:15:24,069 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 21:15:24,069 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 21:15:24,568 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
-2019-04-25 21:15:25,169 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.135 seconds (JVM running for 49.299)
-2019-04-25 23:33:26,588 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on DESKTOP-6TRO48N with PID 2812 (C:\Users\Lucas\git\Agenda-BackEnd-\internos\target\classes started by Lucas in C:\Users\Lucas\git\Agenda-BackEnd-\internos)
-2019-04-25 23:33:26,592 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 23:33:26,592 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 23:33:28,018 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
