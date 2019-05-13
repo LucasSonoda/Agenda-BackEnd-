@@ -1,6 +1,7 @@
 package com.asoprofarma.internos.entity;
 
 import java.io.Serializable;
+import java.util.Comparator;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -88,6 +89,15 @@ public class Contacto implements Serializable {
 	public void setSubgrupo(Subgrupo subgrupo) {
 		this.subgrupo = subgrupo;
 	}
+	
+	public static Comparator<Contacto> sortByNombreAscend = new Comparator<Contacto>() {	
+		public int compare(Contacto o1, Contacto o2) {
+			String contacto1 = o1.getNombre().toUpperCase();
+			String contacto2 = o2.getNombre().toUpperCase();
+			return contacto1.compareTo(contacto2);
+		}
+		
+	};
 
 	private static final long serialVersionUID = 1L;
 

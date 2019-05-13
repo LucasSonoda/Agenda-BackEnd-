@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.asoprofarma.internos.entity.Contacto;
 import com.asoprofarma.internos.entity.Grupo;
 import com.asoprofarma.internos.entity.Subgrupo;
 import com.asoprofarma.internos.service.IGrupoService;
@@ -35,6 +36,9 @@ public class GrupoRestController {
 	public Grupo findById(@PathVariable int id) {
 		Grupo grupo = grupoService.findById(id);
 		Collections.sort(grupo.getSubgrupos(), Subgrupo.sortByNombreAscend);
+		grupo.getSubgrupos().forEach(subgrupo->{
+			Collections.sort(subgrupo.getContactos(), Contacto.sortByNombreAscend);
+		});
 		return grupo;
 	}
 	
