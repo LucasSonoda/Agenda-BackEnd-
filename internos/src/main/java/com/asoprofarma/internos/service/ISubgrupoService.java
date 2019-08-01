@@ -15,4 +15,6 @@ public interface ISubgrupoService {
 	public void delete(Subgrupo subgrupo);
 	
 	public List<Subgrupo> ListSubgrupo();
+	
+	public void saveAll(List<Subgrupo> subgrupos);
 }

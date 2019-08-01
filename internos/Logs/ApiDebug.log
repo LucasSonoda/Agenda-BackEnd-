@@ -1720,3 +1720,530 @@
 2019-04-25 23:33:26,592 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
 2019-04-25 23:33:26,592 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
 2019-04-25 23:33:28,018 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-06-27 12:15:23,997 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 7060 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-06-27 12:15:24,004 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-06-27 12:15:24,005 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-06-27 12:15:26,633 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-06-27 12:15:32,633 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 8.966 seconds (JVM running for 11.425)
+2019-06-28 12:14:45,357 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 25800 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-06-28 12:14:45,374 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-06-28 12:14:45,376 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-06-28 12:14:49,507 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-06-28 12:14:54,106 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 9.339 seconds (JVM running for 11.352)
+2019-07-05 13:06:44,312 INFO c.a.i.InternosApplicationTests [main] Starting InternosApplicationTests on Arielsistemas with PID 12932 (started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 13:06:44,329 DEBUG c.a.i.InternosApplicationTests [main] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 13:06:44,331 INFO c.a.i.InternosApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-07-05 13:06:56,340 INFO c.a.i.InternosApplicationTests [main] Started InternosApplicationTests in 12.628 seconds (JVM running for 14.559)
+2019-07-05 13:09:05,849 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 33884 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 13:09:05,858 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 13:09:05,859 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 13:09:08,210 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 13:09:14,713 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 9.166 seconds (JVM running for 10.724)
+2019-07-05 15:50:11,208 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 34064 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 15:50:11,217 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 15:50:11,218 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 15:50:13,624 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 15:50:18,735 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 7.998 seconds (JVM running for 9.594)
+2019-07-05 15:58:48,617 INFO c.a.i.e.Subgrupo [http-nio-8083-exec-7] Solicitando todos los Subgrupos...
+2019-07-05 15:58:48,660 INFO c.a.i.e.Subgrupo [http-nio-8083-exec-7] Subgrupos retornados correctamente. HttpStatus: 200 OK
+2019-07-05 16:03:18,034 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 34064 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 16:03:18,034 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 16:03:18,035 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 16:03:19,032 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 16:03:21,058 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.1 seconds (JVM running for 791.918)
+2019-07-05 16:03:44,045 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 34064 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 16:03:44,046 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 16:03:44,046 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 16:03:46,968 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 16:03:47,996 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 4.055 seconds (JVM running for 818.856)
+2019-07-05 16:09:46,109 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 34064 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 16:09:46,110 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 16:09:46,110 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 16:09:46,901 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 16:09:47,822 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.775 seconds (JVM running for 1178.681)
+2019-07-05 16:21:11,719 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 34064 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 16:21:11,720 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 16:21:11,720 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 16:21:12,522 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 16:25:02,816 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 34064 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 16:25:02,816 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 16:25:02,817 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 16:25:03,789 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:07:09,749 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35432 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:07:09,758 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:07:09,759 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:07:13,125 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:23:29,555 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 2216 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:23:29,565 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:23:29,566 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:23:32,895 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:24:17,350 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 32668 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:24:17,363 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:24:17,364 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:24:21,864 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:24:51,124 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 31076 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:24:51,134 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:24:51,135 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:24:54,508 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:25:16,635 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23936 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:25:16,644 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:25:16,645 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:25:19,898 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:28:32,675 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 32396 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:28:32,685 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:28:32,686 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:28:36,632 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:30:30,196 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 9376 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:30:30,206 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:30:30,207 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:30:33,526 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:32:04,277 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15376 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:32:04,292 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:32:04,292 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:32:07,459 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:34:26,091 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:34:26,101 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:34:26,103 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:34:29,261 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:34:34,341 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 8.642 seconds (JVM running for 10.203)
+2019-07-05 17:35:00,159 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:35:00,159 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:35:00,159 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:35:01,068 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:35:02,195 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.103 seconds (JVM running for 38.053)
+2019-07-05 17:37:32,260 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:37:32,260 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:37:32,260 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:37:33,230 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:37:34,340 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.137 seconds (JVM running for 190.197)
+2019-07-05 17:38:39,261 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:38:39,261 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:38:39,261 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:38:40,108 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:38:41,165 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.971 seconds (JVM running for 257.031)
+2019-07-05 17:41:27,883 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:41:27,884 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:41:27,885 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:41:28,920 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:41:30,358 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.571 seconds (JVM running for 426.216)
+2019-07-05 17:41:46,800 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:41:46,800 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:41:46,800 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:41:47,599 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:41:48,424 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.681 seconds (JVM running for 444.295)
+2019-07-05 17:44:37,862 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:44:37,862 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:44:37,863 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:44:38,729 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:47:11,163 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:47:11,163 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:47:11,163 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:47:11,976 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:47:15,010 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 35744 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:47:15,010 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:47:15,010 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:47:15,751 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:55:56,371 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 12740 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:55:56,383 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:55:56,385 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:56:00,455 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:58:02,709 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 13340 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:58:02,721 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:58:02,722 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:58:05,958 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:58:42,830 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 884 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 17:58:42,830 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 17:58:42,830 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 17:58:45,888 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 17:58:50,618 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 8.193 seconds (JVM running for 9.686)
+2019-07-05 23:50:39,111 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 884 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-05 23:50:39,112 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-05 23:50:39,113 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-05 23:50:40,199 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-05 23:50:41,194 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.201 seconds (JVM running for 21120.263)
+2019-07-06 01:09:56,749 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 884 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:09:56,750 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:09:56,750 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:09:58,445 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:09:59,824 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.164 seconds (JVM running for 25878.892)
+2019-07-06 01:10:50,981 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 884 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:10:50,981 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:10:50,982 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:10:51,959 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:10:53,179 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.276 seconds (JVM running for 25932.247)
+2019-07-06 01:11:25,298 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 884 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:11:25,299 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:11:25,299 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:11:26,246 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:11:27,635 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.411 seconds (JVM running for 25966.703)
+2019-07-06 01:12:10,353 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 980 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:12:10,366 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:12:10,367 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:12:14,152 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:12:28,359 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 18.595 seconds (JVM running for 31.801)
+2019-07-06 01:19:37,684 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 980 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:19:37,685 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:19:37,685 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:19:39,611 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:20:59,255 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:20:59,264 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:20:59,266 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:21:03,141 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:21:08,184 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 9.519 seconds (JVM running for 11.507)
+2019-07-06 01:22:18,771 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:22:18,771 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:22:18,772 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:22:19,719 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:22:21,184 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.488 seconds (JVM running for 84.507)
+2019-07-06 01:22:23,176 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:22:23,176 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:22:23,177 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:22:24,089 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:22:25,273 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.148 seconds (JVM running for 88.597)
+2019-07-06 01:34:00,771 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:34:00,771 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:34:00,771 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:34:01,608 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:34:02,775 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.066 seconds (JVM running for 786.098)
+2019-07-06 01:34:06,896 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:34:06,896 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:34:06,896 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:34:07,672 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:34:08,727 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.891 seconds (JVM running for 792.051)
+2019-07-06 01:39:09,832 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:39:09,832 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:39:09,832 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:39:10,747 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:39:11,983 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.214 seconds (JVM running for 1095.306)
+2019-07-06 01:39:17,085 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:39:17,085 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:39:17,086 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:39:17,827 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:39:18,883 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.854 seconds (JVM running for 1102.207)
+2019-07-06 01:40:21,151 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:40:21,152 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:40:21,152 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:40:22,038 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:40:23,017 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.924 seconds (JVM running for 1166.34)
+2019-07-06 01:40:47,877 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:40:47,877 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:40:47,878 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:40:48,695 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:40:49,688 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.869 seconds (JVM running for 1193.011)
+2019-07-06 01:41:09,628 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-06 01:41:09,628 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-06 01:41:09,629 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-06 01:41:10,399 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-06 01:41:11,242 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.666 seconds (JVM running for 1214.565)
+2019-07-08 09:46:39,169 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:46:39,169 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:46:39,169 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:46:40,047 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:46:41,039 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.934 seconds (JVM running for 203144.362)
+2019-07-08 09:49:48,423 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:49:48,423 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:49:48,423 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:49:49,126 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:49:50,096 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.725 seconds (JVM running for 203333.419)
+2019-07-08 09:49:56,045 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:49:56,045 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:49:56,045 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:49:56,773 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:49:57,773 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.781 seconds (JVM running for 203341.105)
+2019-07-08 09:50:25,738 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:50:25,738 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:50:25,738 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:50:26,494 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:50:27,462 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.771 seconds (JVM running for 203370.796)
+2019-07-08 09:50:29,413 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:50:29,413 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:50:29,413 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:50:30,172 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:50:31,204 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.849 seconds (JVM running for 203374.531)
+2019-07-08 09:51:10,052 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:51:10,052 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:51:10,052 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:51:10,811 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:51:11,813 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.822 seconds (JVM running for 203415.136)
+2019-07-08 09:54:06,075 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:54:06,075 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:54:06,075 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:54:06,925 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:54:08,313 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.303 seconds (JVM running for 203591.639)
+2019-07-08 09:54:38,076 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 6720 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:54:38,077 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:54:38,077 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:54:38,587 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:54:39,243 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.204 seconds (JVM running for 203622.58)
+2019-07-08 09:54:54,920 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 37768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 09:54:54,931 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 09:54:54,932 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 09:54:58,445 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 09:55:03,580 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 9.189 seconds (JVM running for 10.901)
+2019-07-08 10:13:48,670 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 37768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-08 10:13:48,671 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-08 10:13:48,671 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-08 10:13:49,709 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-08 10:13:50,992 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.388 seconds (JVM running for 1138.314)
+2019-07-10 17:27:34,589 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 13716 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-10 17:27:34,605 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-10 17:27:34,606 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-10 17:27:39,212 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-10 17:27:45,487 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 11.828 seconds (JVM running for 14.848)
+2019-07-11 08:55:33,509 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 10344 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-11 08:55:33,518 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-11 08:55:33,519 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-11 08:55:36,193 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-11 08:55:40,544 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 7.434 seconds (JVM running for 11.745)
+2019-07-11 08:57:14,116 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 2060 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-11 08:57:14,124 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-11 08:57:14,125 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-11 08:57:16,992 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-15 16:40:56,993 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 4292 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-15 16:40:57,005 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-15 16:40:57,006 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-15 16:40:59,453 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-15 16:41:03,468 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 6.84 seconds (JVM running for 10.15)
+2019-07-29 11:52:40,493 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 11:52:40,513 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 11:52:40,514 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 11:52:45,552 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 11:52:59,594 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 20.29 seconds (JVM running for 24.622)
+2019-07-29 12:08:30,027 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 12:08:30,028 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 12:08:30,028 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 12:08:30,865 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 12:08:31,755 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.808 seconds (JVM running for 956.784)
+2019-07-29 12:10:16,790 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 12:10:16,790 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 12:10:16,791 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 12:10:17,490 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 12:10:18,374 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.636 seconds (JVM running for 1063.403)
+2019-07-29 12:10:43,822 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 12:10:43,822 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 12:10:43,823 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 12:10:44,441 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 12:10:45,952 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.178 seconds (JVM running for 1090.98)
+2019-07-29 12:14:45,139 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 12:14:45,139 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 12:14:45,140 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 12:14:46,078 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 12:14:47,402 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.307 seconds (JVM running for 1332.431)
+2019-07-29 12:25:42,036 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 12:25:42,037 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 12:25:42,037 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 12:25:42,864 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 12:25:44,017 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.045 seconds (JVM running for 1989.045)
+2019-07-29 12:26:06,164 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 12:26:06,164 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 12:26:06,164 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 12:26:06,818 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 12:26:07,708 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.591 seconds (JVM running for 2012.736)
+2019-07-29 13:02:20,916 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:02:20,916 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:02:20,917 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:02:22,025 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:02:23,443 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.625 seconds (JVM running for 4188.471)
+2019-07-29 13:07:05,725 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:07:05,726 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:07:05,726 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:07:06,334 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:07:07,087 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.411 seconds (JVM running for 4472.115)
+2019-07-29 13:07:54,678 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:07:54,678 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:07:54,679 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:07:55,274 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:07:55,980 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.339 seconds (JVM running for 4521.008)
+2019-07-29 13:09:03,171 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:09:03,172 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:09:03,172 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:09:03,737 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:09:04,413 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.306 seconds (JVM running for 4589.442)
+2019-07-29 13:10:00,873 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:10:00,873 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:10:00,874 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:10:01,531 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:10:02,246 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.419 seconds (JVM running for 4647.275)
+2019-07-29 13:10:14,769 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23768 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:10:14,769 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:10:14,770 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:10:15,560 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:10:16,954 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.23 seconds (JVM running for 4661.982)
+2019-07-29 13:16:03,511 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 27200 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:16:03,521 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:16:03,522 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:16:06,714 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:16:11,082 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 8.05 seconds (JVM running for 9.955)
+2019-07-29 13:38:45,821 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 24664 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:38:45,829 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:38:45,830 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:38:48,117 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:38:51,984 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 6.453 seconds (JVM running for 9.616)
+2019-07-29 13:42:57,859 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 24664 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:42:57,860 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:42:57,860 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:42:58,539 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:42:59,398 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.589 seconds (JVM running for 257.03)
+2019-07-29 13:48:35,223 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 24664 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:48:35,223 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:48:35,224 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:48:36,497 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:48:38,013 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15196 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:48:38,025 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:48:38,026 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:48:38,197 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 3.05 seconds (JVM running for 595.829)
+2019-07-29 13:48:40,504 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:49:09,749 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 19028 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:49:09,756 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:49:09,757 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:49:12,095 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:49:15,591 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 6.177 seconds (JVM running for 7.701)
+2019-07-29 13:50:15,828 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 19028 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:50:15,828 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:50:15,828 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:50:16,418 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:50:17,213 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.43 seconds (JVM running for 69.323)
+2019-07-29 13:50:38,275 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 19028 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:50:38,275 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:50:38,276 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:50:38,840 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:50:39,611 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.374 seconds (JVM running for 91.72)
+2019-07-29 13:51:18,461 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:51:18,468 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:51:18,469 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:51:20,826 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:51:24,186 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 6.101 seconds (JVM running for 7.59)
+2019-07-29 13:51:45,075 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:51:45,076 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:51:45,076 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:51:45,982 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:51:46,908 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.892 seconds (JVM running for 30.312)
+2019-07-29 13:52:18,276 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:52:18,276 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:52:18,277 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:52:19,170 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:52:19,976 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.771 seconds (JVM running for 63.38)
+2019-07-29 13:52:29,478 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:52:29,479 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:52:29,479 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:52:30,250 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:52:31,482 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.066 seconds (JVM running for 74.885)
+2019-07-29 13:52:54,806 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:52:54,807 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:52:54,807 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:52:55,591 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:52:56,388 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.637 seconds (JVM running for 99.791)
+2019-07-29 13:53:22,234 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:53:22,235 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:53:22,235 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:53:22,786 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:53:23,582 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.397 seconds (JVM running for 126.985)
+2019-07-29 13:59:34,901 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:59:34,902 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:59:34,903 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:59:35,915 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:59:37,427 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.628 seconds (JVM running for 500.83)
+2019-07-29 13:59:52,929 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 13:59:52,930 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 13:59:52,930 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 13:59:53,817 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 13:59:54,800 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.941 seconds (JVM running for 518.204)
+2019-07-29 14:00:50,019 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:00:50,019 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:00:50,020 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:01:17,288 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:01:17,288 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:01:17,288 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:01:18,646 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:01:20,002 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.785 seconds (JVM running for 603.406)
+2019-07-29 14:02:07,475 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:02:07,476 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:02:07,476 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:02:08,384 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:02:09,180 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.766 seconds (JVM running for 652.584)
+2019-07-29 14:03:02,502 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:03:02,503 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:03:02,503 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:03:03,371 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:03:04,327 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.878 seconds (JVM running for 707.731)
+2019-07-29 14:29:34,621 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:29:34,621 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:29:34,622 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:29:35,390 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:29:36,116 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.548 seconds (JVM running for 2299.519)
+2019-07-29 14:30:42,368 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:30:42,369 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:30:42,369 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:30:43,158 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:30:44,013 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.695 seconds (JVM running for 2367.417)
+2019-07-29 14:31:07,736 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:31:07,736 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:31:07,737 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:31:08,450 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:31:09,324 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.638 seconds (JVM running for 2392.728)
+2019-07-29 14:32:36,826 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:32:36,826 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:32:36,827 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:32:37,649 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:32:38,336 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.562 seconds (JVM running for 2481.74)
+2019-07-29 14:33:08,886 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:33:08,886 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:33:08,886 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:33:09,505 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:33:10,851 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.007 seconds (JVM running for 2514.255)
+2019-07-29 14:37:32,610 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:37:32,611 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:37:32,611 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:37:33,465 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:37:34,855 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.293 seconds (JVM running for 2778.259)
+2019-07-29 14:37:39,190 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:37:39,191 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:37:39,191 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:37:39,765 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:37:40,788 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.635 seconds (JVM running for 2784.191)
+2019-07-29 14:44:55,613 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 14:44:55,613 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 14:44:55,614 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 14:44:56,154 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 14:44:56,914 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 1.339 seconds (JVM running for 3220.317)
+2019-07-29 16:48:45,713 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 16:48:45,714 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 16:48:45,714 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 16:48:46,846 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 16:48:47,786 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.139 seconds (JVM running for 10651.189)
+2019-07-29 18:10:11,603 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 18:10:11,604 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 18:10:11,604 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 18:10:12,451 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 18:10:13,686 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.151 seconds (JVM running for 15537.089)
+2019-07-29 18:12:02,829 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 15840 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 18:12:02,829 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 18:12:02,829 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 18:14:14,742 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 3308 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 18:14:14,753 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 18:14:14,755 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 18:14:18,514 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 18:14:23,230 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 8.988 seconds (JVM running for 10.767)
+2019-07-29 18:15:44,749 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 3308 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 18:15:44,750 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 18:15:44,750 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 18:15:45,639 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 18:15:46,930 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.251 seconds (JVM running for 94.466)
+2019-07-29 18:18:28,377 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 3308 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 18:18:28,377 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 18:18:28,377 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 18:18:29,171 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 18:20:16,088 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 3308 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-07-29 18:20:16,089 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-29 18:20:16,089 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-29 18:20:17,066 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-07-29 18:20:18,638 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 2.668 seconds (JVM running for 366.174)
+2019-08-01 14:50:29,597 INFO c.a.i.InternosApplication [restartedMain] Starting InternosApplication on Arielsistemas with PID 23564 (C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos\target\classes started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-08-01 14:50:29,610 DEBUG c.a.i.InternosApplication [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-08-01 14:50:29,612 INFO c.a.i.InternosApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-08-01 14:50:34,393 DEBUG c.a.i.f.UserFilter [restartedMain] Filter 'userFilter' configured for use
+2019-08-01 14:50:44,925 INFO c.a.i.InternosApplication [restartedMain] Started InternosApplication in 15.904 seconds (JVM running for 18.348)
+2019-08-01 14:51:44,630 INFO c.a.i.InternosApplicationTests [main] Starting InternosApplicationTests on Arielsistemas with PID 15664 (started by AsoprofarmaCPL in C:\Users\AsoprofarmaCPL\git\Agenda-BackEnd-\internos)
+2019-08-01 14:51:44,649 DEBUG c.a.i.InternosApplicationTests [main] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-08-01 14:51:44,651 INFO c.a.i.InternosApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-08-01 14:51:55,464 INFO c.a.i.InternosApplicationTests [main] Started InternosApplicationTests in 11.376 seconds (JVM running for 13.26)

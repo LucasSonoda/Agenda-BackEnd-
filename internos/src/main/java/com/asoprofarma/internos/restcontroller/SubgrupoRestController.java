@@ -35,7 +35,7 @@ import com.asoprofarma.internos.service.ISubgrupoService;
 @CrossOrigin(origins = { "http://localhost:4201", "http://10.10.1.119:4201", "http://localhost:4200","http://10.10.1.119:4200" })
 public class SubgrupoRestController {
 	
-	private static final Logger logger = LogManager.getLogger(Subgrupo.class);
+	private static final Logger logger = LogManager.getLogger(SubgrupoRestController.class);
 	
 	@Autowired
 	private ISubgrupoService subgrupoService;
@@ -167,7 +167,7 @@ public class SubgrupoRestController {
 
 			response.put("subgrupo", update);
 			response.put("mensaje", "Subgrupo " + update.getNombre() + " actualizado correctamente.");
-			logger.info("Sbugrupo "+update.getNombre()+" actualizado correctamente.");
+			logger.info("Subgrupo "+update.getNombre()+" actualizado correctamente.");
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 
 		} else {
@@ -178,4 +178,21 @@ public class SubgrupoRestController {
 		}
 	}
 	
+	@Secured("ROLE_ADMIN")
+	@PostMapping("/saveall")
+	public ResponseEntity<Map<String,Object>> saveAll(@RequestBody List<Subgrupo> subgrupos) {
+		
+		Map<String,Object> response = new HashMap<>();
+		
+		if(subgrupos !=null && !subgrupos.isEmpty()) {
+			subgrupoService.saveAll(subgrupos);
+			response.put("mensaje", "Subgrupos actualizados correctamente.");
+			logger.info("mensaje", "Subgrupos actualizados correctamente.");
+			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
+		}
+		
+		logger.error("Los subgrupos no se pudieron actualizar correctamente.");
+		response.put("mensaje","Los subgrupos no se pudieron actualizar correctamente.");
+		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
+	}
 }

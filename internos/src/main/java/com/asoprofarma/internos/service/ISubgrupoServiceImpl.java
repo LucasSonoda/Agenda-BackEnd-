@@ -41,6 +41,10 @@ private ISubgrupoDao subgrupoDao;
 		return (List<Subgrupo>) subgrupoDao.findAll();
 	}
 
-
+	@Override
+	@Transactional()
+	public void saveAll(List<Subgrupo> subgrupos){
+		subgrupoDao.saveAll(subgrupos);
+	}
 
 }

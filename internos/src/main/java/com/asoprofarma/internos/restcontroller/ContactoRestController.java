@@ -70,7 +70,7 @@ public class ContactoRestController {
 		
 		try {
 			contactos =  contactoService.ListContactos();	
-			response.put("clientes", contactos);
+			response.put("contactos", contactos);
 			response.put("mensaje", "Contactos retornados correctamente.");
 			logger.info("Contactos retornados correctamente. HttpStatus: "+String.valueOf(HttpStatus.OK));
 			return new ResponseEntity<Object>(response, HttpStatus.OK);
@@ -82,7 +82,65 @@ public class ContactoRestController {
 			
 	}
 	
-	@Secured({"ROLE_ADMIN"})
+	@GetMapping("/search/{busqueda}")
+	public ResponseEntity<?> search(@PathVariable String busqueda){
+		logger.info("Buscando "+busqueda+" entre los Contactos...");
+		List<Contacto> contactos = null;
+		Map<String, Object> response = new HashMap<String, Object>();
+		
+		try {
+			contactos =  contactoService.searchContacto(busqueda);
+			response.put("contactos", contactos);
+			response.put("mensaje", "Contactos retornados correctamente.");
+			logger.info("Contactos retornados correctamente. HttpStatus: "+String.valueOf(HttpStatus.OK));
+			return new ResponseEntity<Object>(response, HttpStatus.OK);
+		}catch(DataAccessException e) {
+			logger.warn("##Error al intentar buscar los contactos mensaje: "+e.getMostSpecificCause());
+			response.put("mensaje", e.getMostSpecificCause());
+			return new ResponseEntity<Object>(e,HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	@GetMapping("/bysubgrupo/{id}")
+	public ResponseEntity<?> bySubGrupo(@PathVariable Integer id){
+		logger.info("Buscando los contactos del subgrupo con ID = "+ id);
+		List<Contacto> contactos = null;
+		Map<String, Object> response = new HashMap<String, Object>();
+		
+		try {
+			contactos = contactoService.getBySubgrupo(id);
+			response.put("contactos",contactos);
+			response.put("mensaje","Contactos retornados correctamente.");
+			return new ResponseEntity<Object>(response, HttpStatus.OK);
+		}catch(DataAccessException e) {
+			logger.warn("##Error al intentar acceder a los contactos mensaje: "+e.getMostSpecificCause());
+			response.put("mensaje", e.getMostSpecificCause());
+			return new ResponseEntity<Object>(e,HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	
+	@GetMapping("/bygrupo/{id}")
+	public ResponseEntity<?> byGrupo(@PathVariable Integer id){
+		logger.info("Buscando los contactos del grupo con ID = "+ id);
+		List<Contacto> contactos = null;
+		Map<String, Object> response = new HashMap<String, Object>();
+		
+		try {
+			contactos = contactoService.getByGrupo(id);
+			response.put("contactos",contactos);
+			response.put("mensaje","Contactos retornados correctamente.");
+			return new ResponseEntity<Object>(response, HttpStatus.OK);
+		}catch(DataAccessException e) {
+			logger.warn("##Error al intentar acceder a los contactos mensaje: "+e.getMostSpecificCause());
+			response.put("mensaje", e.getMostSpecificCause());
+			return new ResponseEntity<Object>(e,HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	
+	
+	//@Secured({"ROLE_ADMIN"})
 	@PostMapping("/save")
 	public ResponseEntity<?> save(@Valid @RequestBody Contacto contacto, BindingResult result){
 		
@@ -118,7 +176,7 @@ public class ContactoRestController {
 	}
 	
 	@DeleteMapping("/delete/{id}")
-	@Secured({"ROLE_ADMIN"})
+	//@Secured({"ROLE_ADMIN"})
 	public ResponseEntity<?> delete(@PathVariable int id ) {	
 		Map<String, Object> response = new HashMap<>();
 		Contacto contactoDel = contactoService.findById(id);
@@ -137,7 +195,7 @@ public class ContactoRestController {
 	}
 	
 	@PutMapping("/update")
-	@Secured({"ROLE_ADMIN"})
+	//@Secured({"ROLE_ADMIN"})
 	public ResponseEntity<?> update(@Valid @RequestBody Contacto contacto, BindingResult result) {
 		Map<String,Object> response = new HashMap<>();
 		Contacto update = null;

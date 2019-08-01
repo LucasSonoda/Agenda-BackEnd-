@@ -28,7 +28,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	// manual. Desde aca es global
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers(HttpMethod.GET, "/**")
+		http.authorizeRequests().antMatchers("/**")
 		.permitAll().anyRequest().authenticated()
 		.and().cors().configurationSource(corsConfigurationSource());
 	}
@@ -47,21 +47,21 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		return source;
 	}
 	
-	@Bean
+	/*@Bean
 	public FilterRegistrationBean<CorsFilter> corsFilter(){
 		FilterRegistrationBean<CorsFilter> filter = new FilterRegistrationBean<CorsFilter>(new CorsFilter(corsConfigurationSource()));
 		filter.setOrder(Ordered.HIGHEST_PRECEDENCE);
 		return filter;
-	}
+	}*/
 	
-	@Bean
+	/*@Bean
 	public FilterRegistrationBean<UserFilter> userFilter2 (){
 		FilterRegistrationBean<UserFilter> filter = new FilterRegistrationBean<>();
 		filter.setFilter(new UserFilter());
 		filter.addUrlPatterns("/contacto/*");
 		filter.setOrder(Ordered.HIGHEST_PRECEDENCE);
 		return filter;
-	}
+	}*/
 	
 	
 }

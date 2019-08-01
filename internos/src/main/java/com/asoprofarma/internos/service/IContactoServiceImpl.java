@@ -40,4 +40,19 @@ public class IContactoServiceImpl implements IContactoService {
 		return (List<Contacto>) contactoDao.findAll();
 	}
 
+	@Override
+	public List<Contacto> getByGrupo(Integer id) {
+		return contactoDao.getByGrupo(id);
+	}
+
+	@Override
+	public List<Contacto> searchContacto(String busqueda) {
+		return contactoDao.searchContacto(busqueda);
+	}
+
+	@Override
+	public List<Contacto> getBySubgrupo(Integer id) {	
+		return contactoDao.getBysubgrupo(id);
+	}
+
 }

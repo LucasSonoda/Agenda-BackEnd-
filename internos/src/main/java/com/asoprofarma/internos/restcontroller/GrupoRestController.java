@@ -51,6 +51,11 @@ public class GrupoRestController {
 		return grupos;	
 	}
 	
+	@GetMapping("/all/id_nombre")
+	public List<Grupo> allwithIdName(){
+		return grupoService.ListGrupoIdNombre();
+	}
+	
 	@PostMapping("/save")
 	@Secured({"ROLE_ADMIN"})
 	public Grupo save(@RequestBody Grupo grupo){

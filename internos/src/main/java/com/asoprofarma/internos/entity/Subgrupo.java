@@ -23,6 +23,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "subgrupos")
+@JsonIgnoreProperties({"contactos", "hibernateLazyInitializer", "handler"})
 public class Subgrupo implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -41,7 +42,6 @@ public class Subgrupo implements Serializable {
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Grupo grupo;
 	
-	@JsonIgnoreProperties({ "subgrupo", "hibernateLazyInitializer", "handler" })
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "subgrupo",cascade = CascadeType.ALL)
 	private List<Contacto> contactos;
 

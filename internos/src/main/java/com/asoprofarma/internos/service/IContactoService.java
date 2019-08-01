@@ -13,4 +13,10 @@ public interface IContactoService {
 	public Contacto delete(Contacto contacto);
 	
 	public List<Contacto> ListContactos();
+	
+	public List<Contacto> getByGrupo(Integer id);
+	
+	public List<Contacto> getBySubgrupo(Integer id);
+	
+	public List<Contacto> searchContacto(String busqueda);
 }

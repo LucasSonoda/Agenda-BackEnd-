@@ -15,4 +15,6 @@ public interface IGrupoService {
 	public Grupo delete(Grupo grupo);
 	
 	public List<Grupo> ListGrupo();
+	
+	public List<Grupo> ListGrupoIdNombre();
 }
